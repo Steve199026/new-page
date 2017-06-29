@@ -1,0 +1,32 @@
+{
+  "name": "sat_js_css_compiler",
+  "version": "0.0.2",
+  "authors": [
+    "Damian Solka <solka@satware.com>"
+  ],
+  "description": "Compiles SASS Files and concat JS,CSS files for satware websites. With Foundation 6 support",
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "homepage": "https://satware.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/components",
+    "test",
+    "tests",
+    "vendor"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "jquery-ui": "~1.11.4",
+    "jquery.validate": "~1.13.0",
+    "fancyBox": "https://github.com/fancyapps/fancyBox.git#~2.1.5",
+    "foundation-sites": "~6.2.0",
+    "jquery.cookie": "~1.4.1",
+    "motion-ui": "^1.2.2"
+  }
+}

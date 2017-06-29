@@ -1,0 +1,64 @@
+.teaser {
+  background: $primary-color;
+  color: $white;
+  display: table;
+  min-height: 400px;
+  height: 400px;
+  @include transition(all, 0.7s);
+
+  &:hover {
+    background: $ci-color-light;
+  }
+
+  .teaser-content {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  h2 {
+    color: $white;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  h3 {
+    color: $white;
+    margin-top: -9px;
+  }
+
+  button {
+    color: $white;
+    background: rgba($black,0.5);
+    padding: 0.75em 1.75em;
+    border-radius: 2em;
+    @include transition(all, 0.7s);
+    margin-top: 1.25em;
+
+    &:hover {
+      color: $primary-color;
+      background: rgba($white,0.5);
+    }
+  }
+}
+
+.teaser-1396 {
+  background: url('../images/industrieboden.jpg');
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  h2, h3 {
+    color: $primary-color;
+  }
+}
+
+.teaser-1399 {
+  background: url('../images/fraesen.jpg');
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  h2, h3 {
+    color: $primary-color;
+  }
+}

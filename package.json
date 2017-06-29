@@ -1,0 +1,24 @@
+{
+  "name": "sat_JS_CSS_compiler",
+  "version": "0.0.0",
+  "context":"",
+  "url": "http://www.loonone.de/",
+  "description": "Compiles satware Files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Damian Soka",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-chokidar": "^1.0.0",
+    "grunt-criticalcss": "^2.1.0",
+    "grunt-contrib-cssmin": "^2.0.0",
+    "grunt-minified": "0.0.6"
+  }
+}
+

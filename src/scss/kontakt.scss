@@ -1,0 +1,57 @@
+[type=text], textarea {
+  border:none;
+  border-bottom: 2px solid gray;
+  @include transition(all, 0.7s);
+  box-shadow:none;
+
+  &:focus {
+    border:none;
+    border-bottom: 2px solid $primary-color;
+  }
+}
+
+textarea {
+  min-height: 200px;
+}
+
+input.error, textarea.error {
+  border:none;
+  border: 2px solid red;
+}
+
+button.button, button.button:active, button.button:focus {
+
+  background: $primary-color;
+  color: $white;
+  border: 2px solid $primary-color;
+  font-size: 1em;
+
+  &:hover {
+    color: $primary-color;
+    background: $white;
+    border: 2px solid $primary-color;
+  }
+
+  &:active {
+    outline: none;
+    border: none;
+  }
+
+  &:focus {
+    outline:0;
+  }
+}
+
+select {
+  border: 2px solid gray;
+  width: 25%;
+
+  &:focus {
+    outline:0;
+  }
+
+  &:active {
+    outline: none;
+    border: none;
+  }
+}

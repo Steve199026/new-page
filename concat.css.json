@@ -1,0 +1,7 @@
+[
+  "vendor/jquery-ui/themes/ui-lightness/jquery-ui.min.css",
+  "vendor/fancyBox/source/jquery.fancybox.css",
+  "vendor/motion-ui/dist/motion-ui.min.css",
+  "vendor/foundation-sites/dist/foundation.min.css",
+  "temp/css/sites.css"
+]

@@ -1,0 +1,19 @@
+#content {
+
+    .leistungen {
+      display: table;
+      width: 100%;
+      box-shadow: 0px 0px 30px rgba($black, 0.95);
+
+      .teaser-1396, .teaser-1399 {
+        h2 {
+          color: $black;
+        }
+      }
+
+      h2 {
+        text-transform: uppercase;
+        color: $white;
+      }
+    }
+}

@@ -1,0 +1,60 @@
+#nav-top{
+  background-color: $desktop-menu-bg-color;
+}
+
+.top-bar, .top-bar ul {
+  background-color: $desktop-menu-bg-color;
+}
+
+.title-bar{
+  background-color: $mobile-menu-bg-color;
+  color: $mobile-menu-text-color;
+}
+
+.dropdown.menu .active{
+  color: $desktop-menu-bg-active-text-color;
+  background-color: $desktop-menu-bg-active-color;
+}
+.dropdown.menu .active > a{
+  color: $desktop-menu-bg-active-text-color;
+  background-color: $desktop-menu-bg-active-color;
+}
+
+.dropdown.menu.large-horizontal > li.is-dropdown-submenu-parent > a::after {
+  border:none;
+}
+
+.menu.large-horizontal>li {
+  display: block;
+}
+
+.menu>li>a {
+  display: inline-block;
+  padding: .25rem 0.4rem;
+  line-height: 1;
+  text-transform: uppercase;
+  background: rgba($white,0.8);
+  @include transition(all, 0.7s);
+
+  &:hover {
+    color: $white;
+    background: rgba($primary-color,0.8);
+  }
+}
+
+.dropdown.menu .active {
+  background: transparent;
+}
+
+.dropdown.menu .active a {
+  color: $white;
+  background: rgba($primary-color,0.8);
+}
+
+.menu {
+  text-align:right;
+}
+
+.topic_1401 {
+  margin-top: 1em;
+}

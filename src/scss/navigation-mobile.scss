@@ -1,0 +1,54 @@
+
+.title-bar{
+  background-color: $mobile-menu-bg-color;
+  color: $mobile-menu-text-color;
+}
+
+.vertical ul{
+  background-color: $mobile-menu-bg-color;
+}
+
+.vertical ul .active > a {
+  background-color: $mobile-menu-bg-active-color;
+}
+
+.vertical ul a{
+  color: $mobile-menu-text-color;
+}
+.js-drilldown-back > a::before {
+  border-color: transparent $mobile-menu-text-color transparent transparent;
+}
+
+.is-drilldown-submenu-parent > a::after {
+  border-color: transparent transparent transparent $mobile-menu-bg-active-color;
+}
+
+.is-drilldown-submenu-parent.active > a::after {
+  border-color: transparent transparent transparent $mobile-menu-text-color;
+}
+
+.is-drilldown{
+  width: 100%;
+}
+.menu .active{
+  color: $mobile-menu-text-color;
+  background-color: $mobile-menu-bg-color;
+}
+.menu .active > a{
+  color: $mobile-menu-text-color;
+  background-color: $mobile-menu-bg-color;
+}
+
+
+.title-bar {
+
+  margin-top: 1em;
+
+    .menu-bar-bg {
+      float: left;
+    }
+}
+
+.menu {
+  background: $white;
+}
