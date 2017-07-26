@@ -1,0 +1,134 @@
+/*===========================================*/
+/*	DESKTOP LAYOUT 
+/*===========================================*/
+
+
+@media (min-width: 1200px) {
+	
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+}
+
+@media (min-width: 992px) {
+		
+}
+
+/*===========================================*/
+/*	MOBILE & TABLET COMMON
+/*===========================================*/
+@media (min-width: 200px) and (max-width: 991px) {
+	
+}
+
+
+/*===========================================*/
+/*	TABLET
+/*===========================================*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+
+/*===========================================*/
+/*	MOBILE
+/*===========================================*/
+@media (min-width: 200px) and (max-width: 767px) {
+	
+}
+@media (min-width: 600px) and (max-width: 767px) {
+}
+@media (min-width: 480px) and (max-width: 599px) {
+
+}
+@media (min-width: 200px) and (max-width: 479px) {
+
+}
+
+.bg-img:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(219, 37, 55, .8))
+}
+.tag-text{
+    background: none;
+}
+.f-3{
+    font-family: "rajdhaniregular";
+}
+.solid.btn-color4{
+    background-color: #db2537;
+    border-color: #db2537;
+    color: #ffffff;
+}
+.solid.btn-color4:hover, .solid.btn-color4:focus, .solid.btn-color4:active, .solid.btn-color4.active{
+    background-color: transparent;
+    border-color: #db2537;
+    color: #ffffff;
+}
+.solid.btn-color4.popup:hover{
+    color: #db2537;
+}
+.btn-color4:hover, .btn-color4:focus, .btn-color4:active, .btn-color4.active{
+    background-color: #db2537;
+    border-color: #db2537;
+    color: #ffffff;
+}
+.btn-color4{
+    border-color: #db2537;
+    color: #db2537;
+}
+.scroll-color4.nc-scrollbar::-webkit-scrollbar-thumb{
+    background-color: #db2537;
+    border: 2px solid #db2537;
+}
+.hov-bdr-color4:hover, .hov-bdr-color4:hover.row-bdr, .hov-bdr-color4:hover.row-bdr > [class*="flex-col-"], .hov-bdr-color4:hover.row-sep > [class*="flex-col-"], .hov-bdr-color4:hover.form-control, .hov-bdr-color4:focus.form-control, .hov-bdr-color4:hover{
+    border-color: #db2537;
+}
+.hov-txt-color4:hover{
+    color: #db2537;
+}
+
+.active.txt-color4,
+.txt-color4,
+.typo-light .txt-color4,
+.txt-color4:hover {
+    color: #db2537;
+}
+
+.tooltip-color4 .tooltip-inner {
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #db2537;
+}
+.title[data-nc-md^="xlarge"], .title[data-nc-md*=" xlarge"] {
+    font-size: 30px;
+}
+.num-color-4.countdown-widget .inner-dash{
+    color: #db2537;
+}
+
+.tooltip-inner {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    background-color: #db2537;
+}
+
+.tooltip.top .tooltip-arrow {
+    border-top-color: #db2537;
+}
+.tooltip.bottom .tooltip-arrow {
+    border-bottom-color: #db2537;
+}
+
+
+.loader-color6 .pace .pace-progress {
+    background-color: #db2537;
+    color: #ffffff;
+}
