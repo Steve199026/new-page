@@ -132,3 +132,73 @@
     background-color: #db2537;
     color: #ffffff;
 }
+
+.nav-loon {
+    position:absolute;
+    top: 1em;
+    right: 1em;
+}
+
+.nav-loon a {
+    font-family: 'rajdhaniregular';
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.typo-light h1 {
+    font-family: 'rajdhanilight';
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.nc-maintext .owl-carousel {
+    margin: 2em 0em;
+}
+
+/* Webfont */
+
+
+@font-face {
+    font-family: 'rajdhanibold';
+    src: url('../fonts/rajdhani-bold-webfont.eot');
+    src: url('../fonts/rajdhani-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/rajdhani-bold-webfont.woff2') format('woff2'),
+    url('../fonts/rajdhani-bold-webfont.woff') format('woff'),
+    url('../fonts/rajdhani-bold-webfont.ttf') format('truetype'),
+    url('../fonts/rajdhani-bold-webfont.svg#rajdhanibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rajdhanilight';
+    src: url('../fonts/rajdhani-light-webfont.eot');
+    src: url('../fonts/rajdhani-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/rajdhani-light-webfont.woff2') format('woff2'),
+    url('../fonts/rajdhani-light-webfont.woff') format('woff'),
+    url('../fonts/rajdhani-light-webfont.ttf') format('truetype'),
+    url('../fonts/rajdhani-light-webfont.svg#rajdhanilight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rajdhaniregular';
+    src: url('../fonts/rajdhani-regular-webfont.eot');
+    src: url('../fonts/rajdhani-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/rajdhani-regular-webfont.woff2') format('woff2'),
+    url('../fonts/rajdhani-regular-webfont.woff') format('woff'),
+    url('../fonts/rajdhani-regular-webfont.ttf') format('truetype'),
+    url('../fonts/rajdhani-regular-webfont.svg#rajdhaniregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
