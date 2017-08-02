@@ -202,3 +202,11 @@
     font-style: normal;
 
 }
+
+.nc-social {
+    width: 100%;
+}
+
+.nc-social i {
+    font-size: 1.5em;
+}
