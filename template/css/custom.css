@@ -139,10 +139,23 @@
     right: 1em;
 }
 
-.nav-loon a {
+.nav-loon a, .nc-infolinks a {
     font-family: 'rajdhaniregular';
     text-transform: uppercase;
     font-size: 1.2em;
+    color: #db2537;
+}
+
+.nc-infolinks a {
+    color: white;
+}
+
+.nav-loon a:hover {
+    color: white;
+}
+
+.nc-infolinks a:hover {
+    color: gray;
 }
 
 .typo-light h1 {
@@ -209,4 +222,16 @@
 
 .nc-social i {
     font-size: 1.5em;
+}
+
+.avatar {
+    border-radius: 100%;
+    width: 100px;
+    margin: 0 auto;
+    height: auto;
+    margin-bottom: 1.5em;
+}
+
+.member {
+    margin-bottom: 3em;
 }
