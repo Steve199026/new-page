@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="381423de-d573-4dc2-8ab3-666bf4359fe0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/images/thorsten.jpg" afterPath="$PROJECT_DIR$/template/images/thorsten.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/index_en.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/css/custom.css" afterPath="$PROJECT_DIR$/template/css/custom.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/index.html" afterPath="$PROJECT_DIR$/template/index.html" />
     </list>
     <ignored path="loone-comingsoon.iws" />
@@ -29,8 +28,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="415" column="16" selection-start-line="415" selection-start-column="16" selection-end-line="415" selection-end-column="16" />
+            <state relative-caret-position="226">
+              <caret line="392" column="46" selection-start-line="392" selection-start-column="46" selection-end-line="392" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index_en.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/index_en.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="300" column="22" selection-start-line="300" selection-start-column="13" selection-end-line="300" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -83,6 +92,7 @@
         <option value="$PROJECT_DIR$/src/scss/bg-image.scss" />
         <option value="$PROJECT_DIR$/src/scss/content.scss" />
         <option value="$PROJECT_DIR$/template/css/custom.css" />
+        <option value="$PROJECT_DIR$/template/index_en.html" />
         <option value="$PROJECT_DIR$/template/index.html" />
       </list>
     </option>
@@ -98,10 +108,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
+    <option name="x" value="-1" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="873" />
+    <option name="width" value="1441" />
+    <option name="height" value="746" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -181,8 +191,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/template/images" />
       <recent name="$PROJECT_DIR$/template" />
+      <recent name="$PROJECT_DIR$/template/images" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -289,7 +299,7 @@
       <workItem from="1501092630348" duration="424000" />
       <workItem from="1501402935509" duration="2596000" />
       <workItem from="1501695327010" duration="461000" />
-      <workItem from="1501695947207" duration="4386000" />
+      <workItem from="1501695947207" duration="7388000" />
     </task>
     <task id="LOCAL-00001" summary="projekt init">
       <created>1498748885869</created>
@@ -316,21 +326,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18467000" />
+    <option name="totallyTimeSpent" value="21469000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1440" height="873" extended-state="0" />
-    <editor active="false" />
+    <frame x="-1" y="23" width="1441" height="746" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2446352" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23819743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="7.147963E-4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15296641" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290653" sideWeight="0.10586552" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290653" sideWeight="0.89413446" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.5025018" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.89413446" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18053778" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.4974982" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -616,10 +626,26 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/template/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-246">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/index_en.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="300" column="22" selection-start-line="300" selection-start-column="13" selection-end-line="300" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/template/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="415" column="16" selection-start-line="415" selection-start-column="16" selection-end-line="415" selection-end-column="16" />
+        <state relative-caret-position="226">
+          <caret line="392" column="46" selection-start-line="392" selection-start-column="46" selection-end-line="392" selection-end-column="46" />
           <folding />
         </state>
       </provider>
