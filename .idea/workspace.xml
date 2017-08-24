@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="381423de-d573-4dc2-8ab3-666bf4359fe0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/index_en.html" />
+    <list default="true" id="381423de-d573-4dc2-8ab3-666bf4359fe0" name="Default" comment="projekt init">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/index.html" afterPath="$PROJECT_DIR$/template/index.html" />
     </list>
     <ignored path="loone-comingsoon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,47 +18,66 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="loone-comingsoon" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/template/index.html">
+      <file leaf-file-name="content.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/content.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="392" column="46" selection-start-line="392" selection-start-column="46" selection-end-line="392" selection-end-column="46" />
+            <state relative-caret-position="270">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_en.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/index_en.html">
+      <file leaf-file-name="bg-image.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/bg-image.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="300" column="22" selection-start-line="300" selection-start-column="13" selection-end-line="300" selection-end-column="22" />
+              <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nc-grids.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/css/nc-grids.css">
+      <file leaf-file-name="sites.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/sites.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11370">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/css/custom.css">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="144" column="21" selection-start-line="144" selection-start-column="21" selection-end-line="144" selection-end-column="21" />
+            <state relative-caret-position="2475">
+              <caret line="165" column="0" lean-forward="false" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index_en.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/template/index_en.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="261" column="38" lean-forward="false" selection-start-line="261" selection-start-column="38" selection-end-line="261" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/footer.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -70,6 +88,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>h1</find>
+      <find>follow</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/scssh1</dir>
@@ -92,8 +111,8 @@
         <option value="$PROJECT_DIR$/src/scss/bg-image.scss" />
         <option value="$PROJECT_DIR$/src/scss/content.scss" />
         <option value="$PROJECT_DIR$/template/css/custom.css" />
-        <option value="$PROJECT_DIR$/template/index_en.html" />
         <option value="$PROJECT_DIR$/template/index.html" />
+        <option value="$PROJECT_DIR$/template/index_en.html" />
       </list>
     </option>
   </component>
@@ -113,16 +132,6 @@
     <option name="width" value="1441" />
     <option name="height" value="746" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -138,42 +147,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loone-comingsoon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loone-comingsoon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loone-comingsoon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loone-comingsoon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loone-comingsoon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="loone-comingsoon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loone-comingsoon" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="loone-comingsoon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loone-comingsoon" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="template" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -196,6 +187,341 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/package.json</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.DS_Store</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/browserconfig.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/css/custom.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/css/helper.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/css/nc-grids.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/css/nc-main.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/css/nc-responsive.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/css/nc-structure.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/fonts/rajdhani-bold-webfont.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/fonts/rajdhani-bold-webfont.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/fonts/rajdhani-bold-webfont.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/fonts/rajdhani-bold-webfont.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/fonts/rajdhani-bold-webfont.woff2</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/fonts/rajdhani-light-webfont.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/fonts/rajdhani-light-webfont.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/fonts/rajdhani-light-webfont.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/fonts/rajdhani-light-webfont.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/fonts/rajdhani-light-webfont.woff2</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/fonts/rajdhani-regular-webfont.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/fonts/rajdhani-regular-webfont.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/fonts/rajdhani-regular-webfont.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/fonts/rajdhani-regular-webfont.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/fonts/rajdhani-regular-webfont.woff2</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/form-data/config.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/form-data/contact.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/form-data/errorlog.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/form-data/formdata.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/form-data/notify-me.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/form-data/php_wrappers/CMBase.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/form-data/php_wrappers/GetResponseAPI.class.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/form-data/php_wrappers/MailChimp.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/form-data/subscription.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/.DS_Store</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/ParticleSmoke.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/bg-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/bg-image.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/bg.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/favicons/android-icon-144x144.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/favicons/android-icon-192x192.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/favicons/android-icon-36x36.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/favicons/android-icon-48x48.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/favicons/android-icon-72x72.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/favicons/android-icon-96x96.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/favicons/apple-icon-114x114.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/favicons/apple-icon-120x120.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/favicons/apple-icon-144x144.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/favicons/apple-icon-152x152.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/favicons/apple-icon-180x180.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/favicons/apple-icon-57x57.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/favicons/apple-icon-60x60.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/favicons/apple-icon-72x72.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/favicons/apple-icon-76x76.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/favicons/apple-icon-precomposed.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/favicons/apple-icon.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/favicons/favicon-16x16.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/favicons/favicon-32x32.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/favicons/favicon-96x96.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/favicons/favicon.ico</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/favicons/ms-icon-144x144.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/favicons/ms-icon-150x150.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/favicons/ms-icon-310x310.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/favicons/ms-icon-70x70.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/loonlogo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/patrick.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/steve.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/team.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/thorsten.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/images/timm.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/index_en.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/js/html5shiv.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/js/ie-matchmedia.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/js/jquery.viewportchecker.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/js/jquery.viewportchecker.min.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/js/nc.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/js/plugins.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/js/respond.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/Icon-font-7-stroke-PIXEDEN/css/helper.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/Icon-font-7-stroke-PIXEDEN/css/pe-icon-7-stroke.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/Icon-font-7-stroke-PIXEDEN/fonts/Pe-icon-7-stroke.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/Icon-font-7-stroke-PIXEDEN/fonts/Pe-icon-7-stroke.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/Icon-font-7-stroke-PIXEDEN/fonts/Pe-icon-7-stroke.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/Icon-font-7-stroke-PIXEDEN/fonts/Pe-icon-7-stroke.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/Magnific-Popup/jquery.magnific-popup.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/Magnific-Popup/magnific-popup.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/MapIt/LICENSE.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/MapIt/jquery.mapit.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/MapIt/jquery.mapit.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/Swiper/css/swiper.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/Swiper/css/swiper.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/Swiper/js/maps/swiper.jquery.min.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/Swiper/js/swiper.jquery.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/Swiper/js/swiper.jquery.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/Vide/MIT-LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/Vide/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/Vide/jquery.vide.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/animation/animate.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/bg-animation/bg-animation.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/bootstrap-datepicker/css/bootstrap-datepicker.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/bootstrap-datepicker/js/bootstrap-datepicker.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/bootstrap-datepicker/js/bootstrap-datepicker.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/bootstrap-datetimepicker/css/bootstrap-datetimepicker-standalone.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/bootstrap-datetimepicker/js/moment.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/bootstrap/css/bootstrap-theme.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/bootstrap/css/bootstrap-theme.css.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/bootstrap/css/bootstrap-theme.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/bootstrap/css/bootstrap.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/bootstrap/css/bootstrap.css.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/bootstrap/css/bootstrap.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/bootstrap/fonts/glyphicons-halflings-regular.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/bootstrap/fonts/glyphicons-halflings-regular.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/bootstrap/fonts/glyphicons-halflings-regular.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/bootstrap/js/bootstrap.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/bootstrap/js/bootstrap.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/bootstrap/js/npm.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/cloud/cloud.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/cloud/cloud_one.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/cloud/cloud_three.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/cloud/cloud_two.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/counter-up/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/counter-up/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/counter-up/jquery.counterup.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/et-line-font/Read Me.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/et-line-font/et-line.dev.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/et-line-font/fonts/et-line.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/et-line-font/fonts/et-line.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/et-line-font/fonts/et-line.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/et-line-font/fonts/et-line.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/et-line-font/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/et-line-font/lte-ie7.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/et-line-font/style.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/font-awesome/css/font-awesome.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/font-awesome/css/font-awesome.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/font-awesome/fonts/FontAwesome.otf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/font-awesome/fonts/fontawesome-webfont.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/font-awesome/fonts/fontawesome-webfont.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/font-awesome/fonts/fontawesome-webfont.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/font-awesome/fonts/fontawesome-webfont.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/font-awesome/fonts/fontawesome-webfont.woff2</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/formchimp/jquery.formchimp.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/jQuery-viewport-checker/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/jQuery-viewport-checker/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/jQuery-viewport-checker/jquery.viewportchecker.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/jQuery-viewport-checker/jquery.viewportchecker.min.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/jquery-validation/jquery.validate.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/jquery.mb.YTPlayer/css/font/ytp-regular.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/jquery.mb.YTPlayer/css/font/ytp-regular.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/jquery.mb.YTPlayer/css/font/ytp-regular.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/jquery.mb.YTPlayer/css/images/raster.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/jquery.mb.YTPlayer/css/images/raster@2x.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/jquery.mb.YTPlayer/css/images/raster_dot.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/jquery.mb.YTPlayer/css/images/raster_dot@2x.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/jquery.mb.YTPlayer/css/jquery.mb.YTPlayer.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/jquery.mb.YTPlayer/jquery.mb.YTPlayer.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/jquery/jquery-1.12.4.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/jquery/jquery.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/owl-carousel/owl.carousel.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/owl-carousel/owl.carousel.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/pace/pace.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/particle-animation/partical-animation.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/particle-animation/partical-animation.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/particle-animation/particles.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/snow-3d/Snow.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/snow-3d/ThreeCanvas.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/snow-3d/snow-effect.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/snow-3d/snow-effect.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/snow-3d/snowstorm-min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/social-feed/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/social-feed/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/social-feed/bower_components/codebird-js/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/social-feed/bower_components/codebird-js/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/social-feed/bower_components/codebird-js/codebird.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/social-feed/bower_components/doT/LICENSE-DOT.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/social-feed/bower_components/doT/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/social-feed/bower_components/doT/doT.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/social-feed/bower_components/moment/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/social-feed/bower_components/moment/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/social-feed/bower_components/moment/moment.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/social-feed/insta-gallery.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/social-feed/insta-gallery1.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/social-feed/insta-gallery2.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/social-feed/insta-gallery3.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/social-feed/insta-gallery4.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/social-feed/insta-gallery5.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/social-feed/js/jquery.socialfeed.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/social-feed/twitter1.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/social-feed/twitter2.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/social-feed/twitter3.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/star-animation/star-animation.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/sweetalert/LICENSE</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/sweetalert/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/sweetalert/sweetalert.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/sweetalert/sweetalert.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/themify-icons/fonts/themify.eot</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/themify-icons/fonts/themify.svg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/themify-icons/fonts/themify.ttf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/themify-icons/fonts/themify.woff</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/themify-icons/ie7/ie7.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/themify-icons/ie7/ie7.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/themify-icons/readme.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/themify-icons/themify-icons.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/vegas/overlays/01.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/vegas/overlays/02.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/vegas/overlays/03.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/vegas/overlays/04.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/vegas/overlays/05.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/vegas/overlays/06.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/vegas/overlays/07.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/vegas/overlays/08.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/vegas/overlays/09.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/vegas/vegas.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/vegas/vegas.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/lib/vegas/vegas.min.js.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/manifest.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/minify/nc_font_min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/minify/nc_js_min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/minify/nc_lib_min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/template/minify/nc_main_min.css</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/images/loonlogo.png</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -209,8 +535,13 @@
     </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://first-daze.de/template/index.html">
-      <method />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
@@ -236,15 +567,6 @@
       <option name="filePath" />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run-script" />
       <scripts />
@@ -265,9 +587,7 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-    </list>
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://first-daze.de/template/index.html" />
     <recent_temporary>
       <list size="1">
         <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
@@ -326,35 +646,35 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21469000" />
+    <option name="totallyTimeSpent" value="21645000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="23" width="1441" height="746" extended-state="1" />
+    <frame x="197" y="23" width="1629" height="1180" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="7.147963E-4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15296641" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06490233" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29867676" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.5025018" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.89413446" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.4974982" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299539" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.5025018" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="7.147963E-4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15296641" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -378,10 +698,105 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/scss/slideshow.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/stylesheet.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom_modules/osw_templates/template/sitebody.html" />
+    <entry file="file://$PROJECT_DIR$/custom_modules/osw_templates/template/sitehead.html" />
+    <entry file="file://$PROJECT_DIR$/custom_modules/app/general.js" />
+    <entry file="file://$PROJECT_DIR$/src/scss/my-settings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/animation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/sites.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/bg-image.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/content.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="165" column="0" lean-forward="false" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/content.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -389,7 +804,7 @@
     <entry file="file://$PROJECT_DIR$/src/scss/bg-image.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="37" />
+          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -397,7 +812,7 @@
     <entry file="file://$PROJECT_DIR$/src/scss/sites.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -405,7 +820,7 @@
     <entry file="file://$PROJECT_DIR$/template/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2610">
-          <caret line="174" column="30" selection-start-line="174" selection-start-column="30" selection-end-line="174" selection-end-column="30" />
+          <caret line="174" column="30" lean-forward="false" selection-start-line="174" selection-start-column="30" selection-end-line="174" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -413,7 +828,7 @@
     <entry file="file://$PROJECT_DIR$/src/scss/content.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -421,7 +836,7 @@
     <entry file="file://$PROJECT_DIR$/src/scss/bg-image.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="37" />
+          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -429,7 +844,7 @@
     <entry file="file://$PROJECT_DIR$/src/scss/sites.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -437,7 +852,7 @@
     <entry file="file://$PROJECT_DIR$/template/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -445,7 +860,7 @@
     <entry file="file://$PROJECT_DIR$/src/scss/content.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -453,7 +868,7 @@
     <entry file="file://$PROJECT_DIR$/src/scss/bg-image.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -461,7 +876,7 @@
     <entry file="file://$PROJECT_DIR$/src/scss/sites.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -469,36 +884,35 @@
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1860">
-          <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="153" selection-end-column="19" />
+          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="153" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/content.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -506,7 +920,7 @@
     <entry file="file://$PROJECT_DIR$/src/scss/bg-image.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -514,7 +928,7 @@
     <entry file="file://$PROJECT_DIR$/src/scss/sites.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -522,49 +936,51 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1860">
-          <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="153" selection-end-column="19" />
+          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="153" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-157">
-          <caret line="141" column="36" selection-start-line="141" selection-start-column="36" selection-end-line="141" selection-end-column="36" />
+        <state relative-caret-position="2475">
+          <caret line="165" column="0" lean-forward="false" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/stylesheet.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="102" selection-end-column="1" />
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="102" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -576,23 +992,22 @@
     <entry file="file://$PROJECT_DIR$/template/css/nc-main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-555">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/content.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/bg-image.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="37" />
+        <state relative-caret-position="105">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -600,7 +1015,7 @@
     <entry file="file://$PROJECT_DIR$/src/scss/sites.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -608,16 +1023,14 @@
     <entry file="file://$PROJECT_DIR$/template/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
-          <caret line="144" column="21" selection-start-line="144" selection-start-column="21" selection-end-line="144" selection-end-column="21" />
-          <folding />
+          <caret line="144" column="21" lean-forward="false" selection-start-line="144" selection-start-column="21" selection-end-line="144" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/css/nc-grids.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-11370">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -629,23 +1042,22 @@
     <entry file="file://$PROJECT_DIR$/template/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-246">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/index_en.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="300" column="22" selection-start-line="300" selection-start-column="13" selection-end-line="300" selection-end-column="22" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
-          <caret line="392" column="46" selection-start-line="392" selection-start-column="46" selection-end-line="392" selection-end-column="46" />
+          <caret line="392" column="46" lean-forward="false" selection-start-line="392" selection-start-column="46" selection-end-line="392" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/index_en.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="261" column="38" lean-forward="false" selection-start-line="261" selection-start-column="38" selection-end-line="261" selection-end-column="38" />
           <folding />
         </state>
       </provider>
