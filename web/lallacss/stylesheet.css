@@ -8,6 +8,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+::-moz-selection {
+  /* Code for Firefox */
+  color: #000;
+  background: #fff;
+}
+
+::selection {
+  color: #000;
+  background: #fff;
+}
+
 .einblenden {
   animation-name: einblenden;
   animation-duration: 3s;
@@ -139,6 +150,30 @@ figure:hover .logofont {
   margin-right: 0.1em;
 }
 
+.ref--container {
+  display: inline-block;
+}
+
+#sec--contact {
+  min-height: 500px;
+  margin: 10em 0em 0em 0em;
+}
+#sec--contact a.sh--btn {
+  background: #fff;
+  padding: 20px 20px;
+  color: #000;
+  text-transform: lowercase;
+  font-weight: bold;
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -ms-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+#sec--contact a.sh--btn:hover {
+  opacity: 0.5;
+}
+
 @font-face {
   font-family: 'Formular';
   src: url("../fonts/ci-font.eot");
@@ -216,7 +251,7 @@ figure:hover .logofont {
 }
 
 section {
-  min-height: 1250px;
+  min-height: 1050px;
 }
 
 /*# sourceMappingURL=sites.css.map */

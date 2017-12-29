@@ -1,5 +1,6 @@
 $bg-color: #000;
 $font-color: #fff;
+$ci-color: #ffb800;
 
 /* Mixins */
 @mixin transition($args...) {
@@ -17,6 +18,16 @@ body {
   color: $font-color;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: $bg-color;
+  background: $font-color;
+}
+
+::selection {
+  color: $bg-color;
+  background: $font-color;
 }
 
 .einblenden {
@@ -148,6 +159,28 @@ figure {
   span {
     letter-spacing: -0.25em;
     margin-right: 0.1em;
+  }
+}
+
+.ref--container {
+  display: inline-block;
+}
+
+#sec--contact {
+  min-height: 500px;
+  margin: 10em 0em 0em 0em;
+
+  a.sh--btn {
+    background: $font-color;
+    padding: 20px 20px;
+    color: $bg-color;
+    text-transform: lowercase;
+    font-weight: bold;
+    @include transition(all .7s ease);
+
+    &:hover {
+      opacity:0.5;
+    }
   }
 }
 
