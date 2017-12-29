@@ -1,3 +1,4 @@
+/* Mixins */
 body {
   background: #000;
   color: #fff;
@@ -65,6 +66,75 @@ h1:before {
   background-color: rgba(255, 255, 255, 0.4);
   transition-delay: .3s;
   transition: width .7s ease-out;
+}
+
+/* images */
+figure {
+  margin: 0em;
+  position: relative;
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -ms-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  overflow: hidden;
+}
+figure img {
+  filter: grayscale(1);
+}
+figure span.layer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 0%;
+  background: #ffed45;
+  mix-blend-mode: multiply;
+  opacity: 0;
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -ms-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+figure span.pink {
+  background: #f3cfe0;
+}
+figure:hover span {
+  opacity: 0.8;
+  bottom: 0;
+  height: 100%;
+}
+figure .logofont {
+  position: absolute;
+  opacity: 0;
+  text-transform: uppercase;
+  padding: 1em;
+  font-size: 2em;
+  font-weight: bold;
+  bottom: -70px;
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -ms-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+figure .logofont span {
+  background: #fff;
+  color: #000;
+  padding: 5px;
+}
+figure:hover .logofont {
+  opacity: 1;
+  bottom: 0px;
+}
+
+.sh--pr-nr span {
+  letter-spacing: -0.25em;
+  margin-right: 0.1em;
 }
 
 @font-face {

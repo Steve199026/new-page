@@ -1,6 +1,17 @@
 $bg-color: #000;
 $font-color: #fff;
 
+/* Mixins */
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+
+
 body {
   background: $bg-color;
   color: $font-color;
@@ -70,6 +81,73 @@ h1 {
     background-color: rgba(255,255,255,0.4);
     transition-delay: .3s;
     transition: width .7s ease-out;
+  }
+}
+
+/* images */
+
+figure {
+  margin: 0em;
+  position:relative;
+  @include transition(all .7s ease);
+  overflow: hidden;
+
+  img {
+    filter: grayscale(1);
+  }
+
+  span.layer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background: #ffed45;
+    mix-blend-mode: multiply;
+    opacity:0;
+    @include transition(all .7s ease);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $font-color;
+  }
+
+  span.pink {
+    background: #f3cfe0;
+  }
+
+  &:hover span {
+    opacity: 0.8;
+    bottom:0;
+    height: 100%;
+  }
+
+  .logofont {
+    position: absolute;
+    opacity: 0;
+    text-transform:uppercase;
+    padding: 1em;
+    font-size: 2em;
+    font-weight: bold;
+    bottom: -70px;
+    @include transition(all .7s ease);
+
+    span {
+      background: $font-color;
+      color: $bg-color;
+      padding: 5px;
+    }
+  }
+
+  &:hover .logofont {
+    opacity: 1;
+    bottom: 0px;
+  }
+}
+
+.sh--pr-nr {
+  span {
+    letter-spacing: -0.25em;
+    margin-right: 0.1em;
   }
 }
 
