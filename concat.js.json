@@ -1,12 +1,13 @@
 [
-  "vendor/jquery/dist/jquery.min.js",
-  "vendor/jquery-ui/jquery-ui.min.js",
-  "vendor/jquery.validate/dist/jquery.validate.min.js",
+  "bower_components/jquery/dist/jquery.min.js",
+  "bower_components/jquery-ui/jquery-ui.min.js",
+  "bower_components/jquery.validate/dist/jquery.validate.min.js",
   "vendor/jquery.cookie/jquery.cookie.js",
   "vendor/fancyBox/source/jquery.fancybox.pack.js",
   "vendor/motion-ui/dist/motion-ui.min.js",
-  "vendor/foundation-sites/dist/foundation.js",
+  "bower_components/foundation-sites/dist/foundation.js",
   "custom_modules/app/general.js",
+  "bower_components/paroller.js/dist/jquery.paroller.min.js",
   "src/js/javascript.js",
   "src/js/slideshow.js"
 ]

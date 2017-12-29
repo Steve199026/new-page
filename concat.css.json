@@ -1,5 +1,6 @@
 [
   "vendor/jquery-ui/themes/ui-lightness/jquery-ui.min.css",
+  "bower_components/foundation-sites/dist/foundation.min.css",
   "vendor/fancyBox/source/jquery.fancybox.css",
   "vendor/motion-ui/dist/motion-ui.min.css",
   "vendor/foundation-sites/dist/foundation.min.css",

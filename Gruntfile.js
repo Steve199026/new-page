@@ -184,17 +184,18 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-sass');
-    grunt.loadNpmTasks('grunt-chokidar');
-    grunt.loadNpmTasks('grunt-contrib-cssmin');
-    grunt.loadNpmTasks('grunt-minified');
-    grunt.loadNpmTasks('grunt-criticalcss');
 
-    grunt.renameTask('chokidar', 'watch');
+    //grunt.loadNpmTasks('grunt-chokidar');
+    //grunt.loadNpmTasks('grunt-contrib-cssmin');
+    //grunt.loadNpmTasks('grunt-minified');
+    //grunt.loadNpmTasks('grunt-criticalcss');
+
+    //grunt.renameTask('chokidar', 'watch');
 
     // Default task(s).
-    grunt.registerTask('osw_modules', ['copy:osw_modules']);
+    //grunt.registerTask('osw_modules', ['copy:osw_modules']);
 
-    grunt.registerTask('default', ['sass','concat','copy:main','cssmin','minified']);
+    grunt.registerTask('default', ['sass','concat','copy:main']);
 
-    grunt.registerTask('dev', ['sass','concat','copy:main','copy:to_docker']);
+    //grunt.registerTask('dev', ['sass','concat','copy:main','copy:to_docker']);
 };

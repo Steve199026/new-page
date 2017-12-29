@@ -1,177 +1,43 @@
-
-<!doctype html>
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="de"> <!--<![endif]-->
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>LoonOne - Events & Nightlife</title>
-    <meta name="description" content="LoonOne - In Kürze mehr. " />
-
-   <!-- <link rel="canonical" href="https://loonone.com/" />
-    <base href="https://loonone.com/" /> -->
-    <meta name="viewport" content="width=device-width">
-    <link rel="icon" type="Image/png" href="./images/favicon.png" />
-    <link rel="shortcut icon" href="./images/favicon.ico" />
-    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png"/>
-    <style type="text/css">
-
-
-    </style>
-    <link rel="preload" href="./css/stylesheet.min.css" as="style" onload="this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="./css/stylesheet.min.css"></noscript>
-    <script>
-        /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
-
-        /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
-        (function(w){
-            "use strict";
-            /* exported loadCSS */
-            var loadCSS = function( href, before, media ){
-                // Arguments explained:
-                // `href` [REQUIRED] is the URL for your CSS file.
-                // `before` [OPTIONAL] is the element the script should use as a reference for injecting our stylesheet <link> before
-                // By default, loadCSS attempts to inject the link after the last stylesheet or script in the DOM. However, you might desire a more specific location in your document.
-                // `media` [OPTIONAL] is the media type or query of the stylesheet. By default it will be 'all'
-                var doc = w.document;
-                var ss = doc.createElement( "link" );
-                var ref;
-                if( before ){
-                    ref = before;
-                }
-                else {
-                    var refs = ( doc.body || doc.getElementsByTagName( "head" )[ 0 ] ).childNodes;
-                    ref = refs[ refs.length - 1];
-                }
-
-                var sheets = doc.styleSheets;
-                ss.rel = "stylesheet";
-                ss.href = href;
-                // temporarily set media to something inapplicable to ensure it'll fetch without blocking render
-                ss.media = "only x";
-
-                // wait until body is defined before injecting link. This ensures a non-blocking load in IE11.
-                function ready( cb ){
-                    if( doc.body ){
-                        return cb();
-                    }
-                    setTimeout(function(){
-                        ready( cb );
-                    });
-                }
-                // Inject link
-                // Note: the ternary preserves the existing behavior of "before" argument, but we could choose to change the argument to "after" in a later release and standardize on ref.nextSibling for all refs
-                // Note: `insertBefore` is used instead of `appendChild`, for safety re: http://www.paulirish.com/2011/surefire-dom-element-insertion/
-                ready( function(){
-                    ref.parentNode.insertBefore( ss, ( before ? ref : ref.nextSibling ) );
-                });
-                // A method (exposed on return object for external use) that mimics onload by polling document.styleSheets until it includes the new sheet.
-                var onloadcssdefined = function( cb ){
-                    var resolvedHref = ss.href;
-                    var i = sheets.length;
-                    while( i-- ){
-                        if( sheets[ i ].href === resolvedHref ){
-                            return cb();
-                        }
-                    }
-                    setTimeout(function() {
-                        onloadcssdefined( cb );
-                    });
-                };
-
-                function loadCB(){
-                    if( ss.addEventListener ){
-                        ss.removeEventListener( "load", loadCB );
-                    }
-                    ss.media = media || "all";
-                }
-
-                // once loaded, set link's media back to `all` so that the stylesheet applies once it loads
-                if( ss.addEventListener ){
-                    ss.addEventListener( "load", loadCB);
-                }
-                ss.onloadcssdefined = onloadcssdefined;
-                onloadcssdefined( loadCB );
-                return ss;
-            };
-            // commonjs
-            if( typeof exports !== "undefined" ){
-                exports.loadCSS = loadCSS;
-            }
-            else {
-                w.loadCSS = loadCSS;
-            }
-        }( typeof global !== "undefined" ? global : this ));
-
-
-        /*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
-        /*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
-        (function( w ){
-            // rel=preload support test
-            if( !w.loadCSS ){
-                return;
-            }
-            var rp = loadCSS.relpreload = {};
-            rp.support = function(){
-                try {
-                    return w.document.createElement( "link" ).relList.supports( "preload" );
-                } catch (e) {
-                    return false;
-                }
-            };
-
-            // loop preload links and fetch using loadCSS
-            rp.poly = function(){
-                var links = w.document.getElementsByTagName( "link" );
-                for( var i = 0; i < links.length; i++ ){
-                    var link = links[ i ];
-                    if( link.rel === "preload" && link.getAttribute( "as" ) === "style" ){
-                        w.loadCSS( link.href, link, link.getAttribute( "media" ) );
-                        link.rel = null;
-                    }
-                }
-            };
-
-            // if link[rel=preload] is not supported, we must fetch the CSS manually using loadCSS
-            if( !rp.support() ){
-                rp.poly();
-                var run = w.setInterval( rp.poly, 300 );
-                if( w.addEventListener ){
-                    w.addEventListener( "load", function(){
-                        rp.poly();
-                        w.clearInterval( run );
-                    } );
-                }
-                if( w.attachEvent ){
-                    w.attachEvent( "onload", function(){
-                        w.clearInterval( run );
-                    } )
-                }
-            }
-        }( this ));
-    </script>
-    <script async src="./js/modernizr/2.6.1/modernizr.custom.js"></script>
+    <meta charset="UTF-8">
+    <title>Steve Henkel</title>
+    <link rel="stylesheet" href="lallacss/stylesheet.css">
+    <script language="javascript" type="text/javascript" src="lallajs/javascript.js"></script>
 </head>
-
-<body id="home">
-<section class="bg-img">
-<div id="logo">
-    <img alt="LoonOne Logo" src="./images/loonlogo.png">
-    <div class="content"><h1>Coming Soon</h1></div>
-
-</div>
+<body>
+<nav id="sh--head-navigation"></nav>
+<div class="white-balken"></div>
+<section id="sec--top">
+    <div class="row">
+        <div class="large-12 small-12 columns">
+            <h1 data-paroller-factor="0.2" data-paroller-type="foreground">Hi, ich bin Steve.</h1>
+            <p class="faktor1" data-paroller-factor="0.4" data-paroller-type="foreground">hier kommt inhalt rein!</p>
+        </div>
+    </div>
 </section>
-<script async type="text/javascript" src="./js/javascript.min.js" onload="loadPage()"></script>
+<section id="sec--portfolio">
+    <div class="row">
+        <div class="large-6 medium-6 small-12 columns" data-paroller-factor="0.3">ref-1</div>
+        <div class="large-6 medium-6 small-12 columns" data-paroller-factor="0.1" data-paroller-type="foreground">ref-2</div>
+        <div class="large-6 medium-6 small-12 columns" data-paroller-factor="0.8" data-paroller-type="foreground">ref-3</div>
+    </div>
+</section>
+
+<div class="sh--logotype-fixed einblenden">
+    <a href="/index.html" title="Back to Home">Steve Henkel</a>
+</div>
+
+
+<!--Paroller-->
+<script src="lallajs/jquery.paroller.js"></script>
+<!-- Paroller.js Init -->
+<script>
+    $(function () {
+        $(window).paroller();
+    });
+</script>
 
 </body>
 </html>
-
-<!--
-                 Site ID: 18
-                 Maxmem: 1.46 MB Parsetime before TPL: 0.0113837718963623 Total Parsetime: 0.07918286323547363
-                 DB Time: 0.02757954597473145 Queries: 39
-                 No. of Templates parsed: 22
-           -->

@@ -1,0 +1,18 @@
+@keyframes einblenden {
+  0%   {opacity: 0; bottom: -20px;}
+  25%  {opacity: 0; bottom: -20px;}
+  75%  {opacity: 0.6; bottom: -8px;}
+  100% {opacity: 1; bottom: 0px;}
+}
+
+@-webkit-keyframes einblenden {
+  0%   {opacity: 0; bottom: -20px;}
+  25%  {opacity: 0.2; bottom: -15px;}
+  75%  {opacity: 0.6; bottom: -8px;}
+  100% {opacity: 1; bottom: 0px;}
+}
+
+@keyframes loading {
+  0%   {opacity: 0; width: 0%;}
+  100% {opacity: 1; bottom: 0100%;}
+}

@@ -1,0 +1,150 @@
+body {
+  background: #000;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.einblenden {
+  animation-name: einblenden;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+
+.faktor1 {
+  animation-name: einblenden;
+  animation-duration: 6s;
+  animation-iteration-count: 1;
+}
+
+h1 {
+  font-family: 'Formular-Medium', sans-serif;
+  color: #fff;
+  font-weight: normal;
+  font-size: 9.2vw;
+  line-height: 7.8vw;
+  letter-spacing: -0.04em;
+  position: relative;
+  animation-name: einblenden;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  text-transform: lowercase;
+}
+h1:before {
+  content: '';
+  position: relative;
+  top: 14%;
+  display: block;
+  margin-left: -13vw;
+  width: 10vw;
+  height: 2px;
+  background-color: #4a4a4c;
+  transition-delay: .6s;
+  transition: width .5s ease-out;
+}
+
+.sh--logotype-fixed {
+  transform: rotate(-90deg) translate3d(1.6vw, 0, 0);
+  padding: 1em 1.5em;
+  text-transform: lowercase;
+  position: fixed;
+  right: 0;
+  bottom: 140px;
+}
+.sh--logotype-fixed a {
+  font-family: 'Formular-Medium', sans-serif;
+  color: #fff;
+}
+.sh--logotype-fixed:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -4.5vw;
+  width: 4vw;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.4);
+  transition-delay: .3s;
+  transition: width .7s ease-out;
+}
+
+@font-face {
+  font-family: 'Formular';
+  src: url("../fonts/ci-font.eot");
+  src: url("../fonts/ci-font.eot?#iefix") format("embedded-opentype"), url("../fonts/ci-font.woff2") format("woff2"), url("../fonts/ci-font.woff") format("woff"), url("../fonts/ci-font.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Formular-Medium';
+  src: url("../fonts/ci-font-medium.eot");
+  src: url("../fonts/ci-font-medium.eot?#iefix") format("embedded-opentype"), url("../fonts/ci-font-medium.woff2") format("woff2"), url("../fonts/ci-font-medium.woff") format("woff"), url("../fonts/ci-font-medium.ttf") format("truetype");
+}
+@keyframes einblenden {
+  0% {
+    opacity: 0;
+    bottom: -20px;
+  }
+  25% {
+    opacity: 0;
+    bottom: -20px;
+  }
+  75% {
+    opacity: 0.6;
+    bottom: -8px;
+  }
+  100% {
+    opacity: 1;
+    bottom: 0px;
+  }
+}
+@-webkit-keyframes einblenden {
+  0% {
+    opacity: 0;
+    bottom: -20px;
+  }
+  25% {
+    opacity: 0.2;
+    bottom: -15px;
+  }
+  75% {
+    opacity: 0.6;
+    bottom: -8px;
+  }
+  100% {
+    opacity: 1;
+    bottom: 0px;
+  }
+}
+@keyframes loading {
+  0% {
+    opacity: 0;
+    width: 0%;
+  }
+  100% {
+    opacity: 1;
+    bottom: 0100%;
+  }
+}
+.white-balken {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 7px;
+  background: #fff;
+  animation-name: loading;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+}
+
+#sec--top {
+  background: url("../images/b1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  min-height: 1250px;
+}
+
+/*# sourceMappingURL=sites.css.map */
