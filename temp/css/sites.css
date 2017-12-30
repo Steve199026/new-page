@@ -114,6 +114,12 @@ figure span.layer {
 figure span.pink {
   background: #f3cfe0;
 }
+figure span.tuerkis {
+  background: #1db9cb;
+}
+figure span.loonred {
+  background: #d5173c;
+}
 figure:hover span {
   opacity: 0.8;
   bottom: 0;
@@ -225,7 +231,7 @@ figure:hover .logofont {
   }
   100% {
     opacity: 1;
-    bottom: 0100%;
+    width: 100%;
   }
 }
 .white-balken {
@@ -240,9 +246,12 @@ figure:hover .logofont {
 }
 
 #sec--top {
-  background: url("../images/b1.jpg");
+  /* background: url("../images/b1.jpg"); */
+  background: black;
   background-repeat: no-repeat;
   background-size: cover;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -250,6 +259,68 @@ figure:hover .logofont {
 
 section {
   min-height: 1050px;
+}
+
+body.sh--referenz {
+  background: #fff;
+  color: #000;
+}
+body.sh--referenz .white-balken {
+  background: #000;
+}
+body.sh--referenz button {
+  position: absolute;
+  height: 60px;
+  width: 40px;
+  right: 0em;
+}
+body.sh--referenz #cross {
+  background: #000;
+  width: 2px;
+  height: 35px;
+  margin-left: 33px;
+  transform: rotate(45deg);
+  position: relative;
+  margin-top: 1em;
+  right: 1.5em;
+}
+body.sh--referenz #cross:before {
+  background: #000;
+  content: "";
+  width: 35px;
+  height: 2px;
+  position: absolute;
+  top: 15px;
+  left: -15px;
+}
+body.sh--referenz h1 {
+  color: #000;
+}
+body.sh--referenz #sec--top-ref {
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+}
+body.sh--referenz section.lichtbox {
+  background: #ffed45;
+}
+body.sh--referenz section.purpur {
+  background: #f3cfe0;
+}
+body.sh--referenz #sec--contact a.sh--btn {
+  background: #000;
+  color: #fff;
+}
+body.sh--referenz figure img {
+  filter: grayscale(1);
+  -webkit-transition: all, 0.7s ease-out;
+  -moz-transition: all, 0.7s ease-out;
+  -ms-transition: all, 0.7s ease-out;
+  -o-transition: all, 0.7s ease-out;
+  transition: all, 0.7s ease-out;
+}
+body.sh--referenz figure img:hover {
+  filter: grayscale(0);
 }
 
 /*# sourceMappingURL=sites.css.map */

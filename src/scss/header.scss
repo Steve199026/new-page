@@ -10,10 +10,14 @@
 }
 
 #sec--top {
-  background: url("../images/b1.jpg");
+ /* background: url("../images/b1.jpg"); */
+  background: black;
   background-repeat: no-repeat;
   background-size: cover;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+

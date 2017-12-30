@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lichtbox</title>
+    <meta name="description" content="Programmierung der Seite Lichtbox">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="lallacss/stylesheet.css">
+    <script language="javascript" type="text/javascript" src="lallajs/javascript.js"></script>
+</head>
+<body class="sh--referenz">
+<nav id="sh--head-navigation"></nav>
+<div class="white-balken"></div>
+<button onclick="goBack()"><div id="cross" class="einblenden"></div></button>
+<section id="sec--top-ref" class="lichtbox">
+    <div class="row">
+        <div class="large-12 small-12 columns">
+            <h1 data-paroller-factor="0.2" data-paroller-type="foreground">Lichtbox</h1>
+            <p class="faktor1" data-paroller-factor="0.3" data-paroller-type="foreground">hier kommt inhalt rein!</p>
+        </div>
+    </div>
+</section>
+<section id="sec--portfolio">
+    <div class="row">
+        <div class="ref--container">
+            <div class="sh--ref-box large-12 medium-12 small-12 columns">
+                <figure data-paroller-factor="0.1" data-paroller-type="foreground">
+                    <span class="sh--pr-nr"><span>--------------</span> Startseite <b>Tablet</b></span>
+                    <br /><br />
+                    <img src="images/lichtbox/lichtbox-ref-header.jpg">
+                </figure>
+            </div>
+
+        </div>
+
+        <div class="ref--container">
+            <div class="sh--ref-box large-6 medium-6 small-12 columns">
+                <figure data-paroller-factor="0.1" data-paroller-type="foreground">
+                    <span class="sh--pr-nr"><span>--------------</span> Startseite <b>Desktop</b></span>
+                    <br /><br />
+                    <img src="images/lichtbox/lichtbox-home.jpg">
+                </figure>
+            </div>
+
+            <div class="sh--ref-box large-6 medium-6 small-12 columns">
+                <figure data-paroller-factor="0.2" data-paroller-type="foreground">
+                    <span class="sh--pr-nr"><span>--------------</span> Unterseite <b>Desktop</b></span>
+                    <br /><br />
+                    <img src="images/lichtbox/lichtbox-raumakustik.jpg">
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="sec--contact">
+    <div class="row">
+        <div class="large-12 small-12 columns">
+            <h1 data-paroller-factor="0.2" data-paroller-type="foreground">kontakt</h1>
+            <p class="faktor1" data-paroller-factor="0.3" data-paroller-type="foreground">
+                <a class="sh--btn" href="mailto:mail@steve-henkel.de" title="E-Mail schreiben">E-Mail schreiben</a></p>
+        </div>
+    </div>
+</section>
+<div class="sh--logotype-fixed einblenden">
+    <a href="/index.html" title="Back to Home">Steve Henkel</a>
+</div>
+
+
+<!--Paroller-->
+<script src="lallajs/jquery.paroller.js"></script>
+<!-- Paroller.js Init -->
+<script>
+    $(function () {
+        $(window).paroller();
+    });
+</script>
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+
+</body>
+</html>

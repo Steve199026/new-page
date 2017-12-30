@@ -1,0 +1,74 @@
+body.sh--referenz {
+  background: $font-color;
+  color: $bg-color;
+
+  .white-balken {
+    background: $bg-color;
+  }
+
+  button {
+    position: absolute;
+    height: 60px;
+    width: 40px;
+    right: 0em;
+  }
+
+  #cross{
+    background: $bg-color;
+    width: 2px;
+    height: 35px;
+    margin-left: 33px;
+    transform: rotate(45deg);
+    position: relative;
+    margin-top: 1em;
+    right: 1.5em;
+  }
+
+  #cross:before{
+    background: $bg-color;
+    content: "";
+    width: 35px;
+    height: 2px;
+    position: absolute;
+    top: 15px;
+    left: -15px;
+  }
+
+  h1 {
+    color: $bg-color;
+  }
+
+  #sec--top-ref {
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+  }
+
+  section.lichtbox {
+    background: #ffed45;
+  }
+
+  section.purpur {
+    background: #f3cfe0;
+  }
+
+  #sec--contact {
+    a.sh--btn {
+      background: $bg-color;
+      color: $font-color;
+    }
+  }
+
+  figure {
+
+    img {
+      filter: grayscale(1);
+      @include transition(all, 0.7s ease-out);
+
+      &:hover {
+        filter: grayscale(0);
+      }
+    }
+  }
+
+}

@@ -11,8 +11,6 @@ $ci-color: #ffb800;
   transition: $args;
 }
 
-
-
 body {
   background: $bg-color;
   color: $font-color;
@@ -126,6 +124,14 @@ figure {
     background: #f3cfe0;
   }
 
+  span.tuerkis {
+    background: #1db9cb;
+  }
+
+  span.loonred {
+    background: #d5173c;
+  }
+
   &:hover span {
     opacity: 0.8;
     bottom:0;
@@ -188,4 +194,4 @@ figure {
 @import 'keyframes';
 @import 'header';
 @import 'portfolio';
-
+@import 'referenz';
