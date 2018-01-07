@@ -95,11 +95,14 @@ h1 {
 
 /* images */
 
+figure.sh--ref-home {
+  overflow: hidden;
+}
+
 figure {
   margin: 0em;
   position:relative;
   @include transition(all .7s ease);
-  overflow: hidden;
 
   img {
     filter: grayscale(1);

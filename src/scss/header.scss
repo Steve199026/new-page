@@ -10,8 +10,8 @@
 }
 
 #sec--top {
- /* background: url("../images/b1.jpg"); */
-  background: black;
+  background: url("../images/bg-image.jpg");
+  background-position: top right;
   background-repeat: no-repeat;
   background-size: cover;
   display: -ms-flexbox;

@@ -80,6 +80,10 @@ h1:before {
 }
 
 /* images */
+figure.sh--ref-home {
+  overflow: hidden;
+}
+
 figure {
   margin: 0em;
   position: relative;
@@ -88,7 +92,6 @@ figure {
   -ms-transition: all 0.7s ease;
   -o-transition: all 0.7s ease;
   transition: all 0.7s ease;
-  overflow: hidden;
 }
 figure img {
   filter: grayscale(1);
@@ -234,6 +237,48 @@ figure:hover .logofont {
     width: 100%;
   }
 }
+@keyframes ani-right {
+  0% {
+    left: 0px;
+  }
+  7% {
+    left: 15px;
+  }
+  18% {
+    left: -3px;
+  }
+  21% {
+    left: 0px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+.ani-cta {
+  position: relative;
+  animation-name: ani-right;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  margin-top: 2em;
+}
+.ani-cta a {
+  color: black;
+  text-transform: lowercase;
+  font-weight: bold;
+  -webkit-transition: all, 0.7s ease-out;
+  -moz-transition: all, 0.7s ease-out;
+  -ms-transition: all, 0.7s ease-out;
+  -o-transition: all, 0.7s ease-out;
+  transition: all, 0.7s ease-out;
+  background: black;
+  color: white;
+  padding: 20px 20px;
+}
+.ani-cta a:hover {
+  opacity: 0.7;
+}
+
 .white-balken {
   position: absolute;
   top: 0px;
@@ -246,8 +291,8 @@ figure:hover .logofont {
 }
 
 #sec--top {
-  /* background: url("../images/b1.jpg"); */
-  background: black;
+  background: url("../images/bg-image.jpg");
+  background-position: top right;
   background-repeat: no-repeat;
   background-size: cover;
   display: -ms-flexbox;
@@ -259,6 +304,47 @@ figure:hover .logofont {
 
 section {
   min-height: 1050px;
+}
+
+.iot-frame {
+  color: black;
+}
+.iot-frame h2 {
+  color: black;
+  font-family: 'formular-medium', sans-serif;
+  font-weight: bold;
+  text-transform: lowercase;
+}
+.iot-frame img {
+  height: 45px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+.iot-frame span {
+  font-family: 'formular-medium', sans-serif;
+  font-weight: bold;
+  text-transform: lowercase;
+}
+.iot-frame .sh--anmerkung {
+  margin: 2em 0em;
+}
+
+body.iot-ref .white-balken, body.loon-ref .white-balken {
+  background: white !important;
+}
+body.iot-ref #cross, body.loon-ref #cross {
+  background: white !important;
+}
+body.iot-ref #cross:before, body.loon-ref #cross:before {
+  background: white !important;
+}
+body.iot-ref .tuerkis h1, body.iot-ref section.loonone h1, body.loon-ref .tuerkis h1, body.loon-ref section.loonone h1 {
+  color: white;
+}
+body.iot-ref .tuerkis h1:before, body.iot-ref section.loonone h1:before, body.loon-ref .tuerkis h1:before, body.loon-ref section.loonone h1:before {
+  background-color: white;
 }
 
 body.sh--referenz {
@@ -307,6 +393,12 @@ body.sh--referenz section.lichtbox {
 body.sh--referenz section.purpur {
   background: #f3cfe0;
 }
+body.sh--referenz section.loonone {
+  background: #d5173c;
+}
+body.sh--referenz section.tuerkis {
+  background: #1db9cb;
+}
 body.sh--referenz #sec--contact a.sh--btn {
   background: #000;
   color: #fff;
@@ -321,6 +413,16 @@ body.sh--referenz figure img {
 }
 body.sh--referenz figure img:hover {
   filter: grayscale(0);
+}
+body.sh--referenz .sh--logotype-fixed a {
+  color: #000;
+}
+body.sh--referenz .sh--logotype-fixed:before {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.iot-ref #sec--portfolio {
+  min-height: 650px;
 }
 
 /*# sourceMappingURL=sites.css.map */

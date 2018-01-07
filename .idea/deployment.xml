@@ -5,7 +5,7 @@
       <paths name="steve-henkel">
         <serverdata>
           <mappings>
-            <mapping deploy="\webseiten\" local="$PROJECT_DIR$/web/" web="/" />
+            <mapping deploy="\" local="$PROJECT_DIR$/web/" web="/" />
           </mappings>
         </serverdata>
       </paths>

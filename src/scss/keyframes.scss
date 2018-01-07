@@ -17,3 +17,40 @@
   100% {opacity: 1; width: 100%;}
 }
 
+
+@keyframes ani-right {
+  0%   {left:0px; }
+  7% {left: 15px; }
+  18% {left: -3px; }
+  21% {left: 0px;}
+  100% {left:0px;}
+}
+
+.ani-cta {
+  position:relative;
+  animation-name: ani-right;
+  animation-duration: 3s;
+  animation-delay:2s;
+  animation-iteration-count: infinite;
+  margin-top: 2em;
+
+  a {
+    color: black;
+    text-transform: lowercase;
+    font-weight: bold;
+    @include transition(all, 0.7s ease-out);
+    background: black;
+    color: white;
+    padding: 20px 20px;
+
+
+    &:hover {
+      opacity: 0.7;
+    }
+
+
+  }
+
+
+
+}

@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)http://im-netz-der-dinge.de/exp/exp.html -->
+<html class="no-js skrollr skrollr-desktop" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT</title>
+    <link rel="stylesheet" href="./IoT_files/foundation.css">
+    <link rel="stylesheet" href="./IoT_files/iotstyle.css">
+    <link rel="stylesheet" href="./IoT_files/animate.css">
+    <script type="text/javascript" async="" src="./IoT_files/recaptcha__de.js"></script><script src="./IoT_files/modernizr.js"></script>
+    <script src="./IoT_files/register.js"></script>
+    <script src="./IoT_files/api.js"></script>
+    <script src="./IoT_files/jquery.min.js"></script>
+    <script src="./IoT_files/parallax.min.js"></script>
+    <script src="./IoT_files/wheelzoom.js"></script>
+    <script src="./IoT_files/smsc.js"></script>
+
+    <script type="text/javascript" src="./IoT_files/skrollr.js"></script>
+<style>
+    ::-webkit-scrollbar {
+        width: 0px;
+    }
+    #snow {
+        background: none;
+        font-family: Androgyne;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+        -webkit-animation: snow 10s linear infinite;
+        -moz-animation: snow 10s linear infinite;
+        -ms-animation: snow 10s linear infinite;
+        animation: snow 10s linear infinite;
+    }
+    @keyframes snow {
+        0% {
+            background-position: 0px 0px, 0px 0px, 0px 0px;
+        }
+        50% {
+            background-position: 500px 500px, 100px 200px, -100px 150px;
+        }
+        100% {
+            background-position: 500px 1000px, 200px 400px, -100px 300px;
+        }
+    }
+    @-moz-keyframes snow {
+        0% {
+            background-position: 0px 0px, 0px 0px, 0px 0px;
+        }
+        50% {
+            background-position: 500px 500px, 100px 200px, -100px 150px;
+        }
+        100% {
+            background-position: 400px 1000px, 200px 400px, 100px 300px;
+        }
+    }
+    @-webkit-keyframes snow {
+        0% {
+            background-position: 0px 0px, 0px 0px, 0px 0px;
+        }
+        50% {
+            background-position: 500px 500px, 100px 200px, -100px 150px;
+        }
+        100% {
+            background-position: 500px 1000px, 200px 400px, -100px 300px;
+        }
+    }
+    @-ms-keyframes snow {
+        0% {
+            background-position: 0px 0px, 0px 0px, 0px 0px;
+        }
+        50% {
+            background-position: 500px 500px, 100px 200px, -100px 150px;
+        }
+        100% {
+            background-position: 500px 1000px, 200px 400px, -100px 300px;
+        }
+    }
+
+    #iot-frame {
+        zoom: 0.83;
+        -ms-zoom: 0.83;
+        -webkit-zoom: 0.83;
+        -moz-transform:  scale(0.83,0.83);
+    }
+
+</style></head>
+
+
+<body id="iot-frame" style="padding-bottom: 500px; height: 1.00009e+07px;">
+    <div id="start"></div>
+    <div id="dev" style="display:none;
+  color: white;
+  height: 20px;
+  width: 200px;
+  position: fixed;
+  z-index: 2;" ;="">dev: scroll: <span id="dev_scroll">38700  967.5</span>
+    </div>
+
+
+    <div class="slide l oader skrollable skrollable-after" data-0="display:table;" style="display: table;">
+        <div class="centerall">Preloading, 10sec</div>
+    </div>
+
+
+    <div class="slide s1 skrollable skrollable-between" data-0="transform: scale(1); display: table;" data-1000="transform: scale(15.5);" style="transform: scale(15.0288); display: table;">
+        <div class="centerall">
+            <div class="row wow fadeIn" data-wow-duration="3s" data-wow-delay="1s">
+                <div class="large-12 columns">
+                    <div id="logobox" data-0="" data-450="" class="skrollable skrollable-after">
+                        <div class="cfix circle1">X</div>
+                        <div class="cfix circle2">X</div>
+                        <div class="cfix circle3">X</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row wow fadeInDown" data-wow-duration="3s" data-wow-delay="3s">
+                <div class="large-12 columns text-center white">
+                    <img src="./IoT_files/logo.png" alt="Logo">
+                    <!--<h3 class="subline font1r">Internet of Things</h3>
+                    <h1 class="font1b"><span class="font1r">IM</span> NETZ <span class="font1r">DER</span DINGE</h1> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide s2 skrollable skrollable-after" data-0="display:none;" data-112="display:table; transform[cubic]: scale(0.001);" data-800="transform[cubic]: scale(0.5); display: none;" style="display: none; transform: scale(0.5);">
+        <div class="centerall">
+            <div class="object" style="background-image: url(./exp/icon1.svg); height: 752px; width: 5000px; margin-left: -3000px; position: absolute;"></div>
+            <div class="object" style="background-image: url(./exp/icon2.svg); height: 752px; width: 700px; margin-left: -4000px; position: absolute;"></div>
+            <div class="object" style="background-image: url(./exp/icon3.svg); height: 752px; width: 700px; margin-left: -4200px; margin-top: -3200px; position: absolute;"></div>
+            <div class="object twinkle" style="background-image: url(./exp/icon4.svg); height: 752px; width: 700px; margin-left: -6600px; margin-top: -6050px; position: absolute;"></div>
+            <div class="object" style="background-image: url(./exp/icon5.svg); height: 752px; width: 700px; margin-left: 4400px; margin-top: -5050px; position: absolute;"></div>
+
+
+            <div class="object" style="background-image: url(./exp/icon6.svg); height: 752px; width: 700px; margin-left: 1700px; margin-top: -3050px; position: absolute;"></div>
+            <div class="object" style="background-image: url(./exp/icon7.svg); height: 752px; width: 700px; margin-left: 3600px; margin-top: 6700px; position: absolute;"></div>
+            <div class="object" style="background-image: url(./exp/icon8.svg); height: 752px; width: 700px; margin-left: -3300px; margin-top: 6250px; position: absolute;"></div>
+            <div class="object" style="background-image: url(./exp/icon9.svg); height: 752px; width: 700px; margin-left: -3500px; margin-top: 4050px; position: absolute;"></div>
+            <div class="object" style="background-image: url(./exp/icon10.svg); height: 752px; width: 700px; margin-left: 2900px; margin-top: 4450px; position: absolute;"></div>
+            <div class="object" style="background-image: url(./exp/icon11.svg); height: 752px; width: 700px; margin-left: -1500px; margin-top: 1050px; position: absolute;"></div>
+            <div class="object" style="background-image: url(./exp/icon12.svg); height: 752px; width: 700px; margin-left: -1500px; margin-top: 3050px; position: absolute;"></div>
+
+        </div>
+    </div>
+    <div class="slide s2 skrollable skrollable-after" data-0="display:none;" data-212="display:table; transform[cubic]: scale(0.001);" data-800="transform[cubic]: scale(1.0); display: none;" style="display: none; transform: scale(1);">
+        <div class="centerall">
+            <div class="object" style="background-image: url(./exp/icon1.svg); height: 752px; width: 5000px; margin-left: -3300px; margin-top: -800px; position: absolute;"></div>
+            <div class="object twinkle" style="background-image: url(./exp/icon2.svg); height: 752px; width: 700px; margin-left: -5200px; margin-top: -1900px; position: absolute;"></div>
+            <div class="object" style="background-image: url(./exp/icon3.svg); height: 752px; width: 700px; margin-left: 6400px; margin-top: -2900px; position: absolute;"></div>
+            <div class="object" style="background-image: url(./exp/icon4.svg); height: 752px; width: 700px; margin-left: 2400px; margin-top: -2900px; position: absolute;"></div>
+            <div class="object" style="background-image: url(./exp/icon5.svg); height: 752px; width: 700px; margin-left: -4600px; margin-top: -5600px; position: absolute;"></div>
+            <div class="object" style="background-image: url(./exp/icon6.svg); height: 752px; width: 700px; margin-left: 1600px; margin-top: -1700px; position: absolute;"></div>
+            <div class="object twinkle" style="background-image: url(./exp/icon7.svg); height: 752px; width: 700px; margin-left: 3300px; margin-top: -6250px; position: absolute;"></div>
+            <div class="object" style="background-image: url(./exp/icon8.svg); height: 752px; width: 700px; margin-left: 3500px; margin-top: -4050px; position: absolute;"></div>
+        </div>
+    </div>
+    <div class="slide s2 skrollable skrollable-after" data-0="display:none;" data-212="display:table; transform[cubic]: scale(0.001);" data-800="transform[cubic]: scale(3.0); display: none;" style="display: none; transform: scale(3);">
+        <div class="centerall">
+            <div class="object" style="background-image: url(./exp/icon9.svg); height: 752px; width: 700px; margin-left: -4600px; margin-top: -7600px; position: absolute;"></div>
+            <div class="object" style="background-image: url(./exp/icon10.svg); height: 752px; width: 700px; margin-left: -8600px; margin-top: -4900px; position: absolute;"></div>
+            <div class="object" style="background-image: url(./exp/icon11.svg); height: 752px; width: 700px; margin-left: -2200px; margin-top: -2050px; position: absolute;"></div>
+            <div class="object" style="background-image: url(./exp/icon12.svg); height: 752px; width: 700px; margin-left: 1700px; margin-top: -1950px; position: absolute;"></div>
+            <div class="object" style="background-image: url(./exp/icon13.svg); height: 752px; width: 700px; margin-left: 1500px; margin-top: 250px; position: absolute;"></div>
+            <div class="object" style="background-image: url(./exp/icon14.svg); height: 752px; width: 700px; margin-left: -300px; margin-top: -1050px; position: absolute;"></div>
+
+        </div>
+    </div>
+    <div class="slide s2 skrollable skrollable-after" data-0="display:none;  filter: blur(0px);" data-212="display:table; transform[cubic]: scale(0.001);  filter: blur(10px);" data-600="transform[cubic]: scale(3.0); display: none;" style="display: none; filter: blur(10px); transform: scale(3);">
+        <div class="centerall">
+            <div class="object" style="background-image: url(./exp/icon1.svg); height: 752px; width: 700px; margin-left: -2000px; position: absolute;"></div>
+            <div class="object" style="background-image: url(./exp/icon2.svg); height: 752px; width: 700px; margin-left: 2000px; margin-top: -3000px; position: absolute;"></div>
+            
+            <div class="object " style="background-image: url(./exp/icon12.svg); height: 752px; width: 700px; margin-left: -5600px; margin-top: -3600px; position: absolute;"></div>
+        </div>
+    </div>
+
+    <div class="slide s2 skrollable skrollable-after" data-0="display:none;  filter: blur(0px);" data-512="display:table; transform[cubic]: scale(0.001);  filter: blur(10px);" data-600="transform[cubic]: scale(3.0); display: none;" style="display: none; filter: blur(10px); transform: scale(3);">
+        <div class="centerall">
+            <div class="object" style="background-image: url(./exp/cam.svg); height: 752px; width: 700px; margin-left: 3000px; position: absolute;"></div>
+        </div>
+    </div>
+    <div class="slide s2 skrollable skrollable-after" data-0="display:none;  filter: blur(0px);" data-512="display:table; transform[cubic]: scale(0.001);  filter: blur(10px);" data-800="transform[cubic]: scale(3.0); display: none;" style="display: none; filter: blur(10px); transform: scale(3);">
+        <div class="centerall">
+            <div class="object" style="background-image: url(./exp/cam.svg); height: 752px; width: 700px; margin-left: -2000px; margin-top: -2000px; position: absolute;"></div>
+        </div>
+    </div>
+
+
+
+    <div class="slide s3 skrollable skrollable-after" data-0="display:none;" data-400="display: table;  transform[quadratic]: scale(0.01)" data-830=" transform: scale(10); display: none;" style="display: none; transform: scale(10);">
+        <div class="centerall">
+            <div class="object" style="background-image: url(./exp/bluecircle.svg); height: 752px;"></div>
+        </div>
+    </div>
+
+
+    <div class="slide s4 skrollable skrollable-after" data-0="display:none;" data-590="display:table;" style="display: table;">
+        <div class="centerall">
+
+            <div class="object skrollable skrollable-after" data-720=" margin-top: 900px;" data-830="margin-top: -600px" style="background-image: url(./exp/sky.svg); margin: -600px auto auto; height: 244px; width: 200px;"></div>
+
+
+        </div>
+    </div>
+
+
+    <div class="slide s5 skrollable skrollable-after" data-0="display:none;" data-830="display:table;" style="display: table;">
+        <div class="centerall">
+
+            <div class="object skrollable skrollable-between" data-830=" margin-top: 800px;" data-1200="margin-top: -800px" style="background-image: url(./exp/sky.svg); margin-left: 200px; height: 244px; width: 200px; left: calc(50% - 100px); position: absolute; margin-top: 205.405px;"></div>
+            <div class="object skrollable skrollable-between" data-680=" margin-top: 800px;" data-1200="margin-top: -800px" style="background-image: url(./exp/sky.svg); margin-left: -300px; height: 244px; width: 300px; left: calc(50% - 150px); position: absolute; margin-top: -84.6154px;"></div>
+            <div class="object skrollable skrollable-between" data-830=" margin-top: 1200px;" data-1200="margin-top[quadratic]: -800px" style="background-image: url(./exp/sky.svg); left: calc(50% - 125px); height: 244px; width: 250px; margin-left: -200px; position: absolute; margin-top: 456.757px;"></div>
+
+            <!-- Sonne -->
+            <div class="object skrollable skrollable-before" data-1030=" margin-top: 450px;" data-1200="margin-top: -376px" style="background-image: url(./exp/sonne.svg); left: calc(50% - 125px); height: 244px; width: 250px; margin-left: 415px; position: absolute; margin-top: 450px;"></div>
+
+            <div class="object skrollable skrollable-between" data-880=" margin-top: 70px; opacity: 0.01;" data-1200="margin-top[quadratic]: -200px; opacity: 1;" data-1207="margin-top: -200px;" data-1300="margin-top: -1000px" style="background-image: url(./exp/diemylogo2.svg); left: calc(50% - 290px); height: 200px; width: 580px; position: absolute; color: white; font-size: 50px; text-align: center; margin-top: -3.82813px; opacity: 0.280703;"></div>
+
+            <div class="object skrollable skrollable-before" data-1100="left: 1250px; margin-top: 555px;" data-1400="margin-top[quadratic]: -550px" style="background-image: url(./exp/haus3.svg); height: 748px; width: 491px; margin-left: -290px; position: absolute; left: 1250px; margin-top: 555px;"></div>
+            <div class="object skrollable skrollable-before" data-1100="left: 50px; margin-top: 455px;" data-1400="margin-top[quadratic]: -760px" style="background-image: url(./exp/haus12.svg); height: 967px; width: 361px; margin-left: -55px; position: absolute; left: 50px; margin-top: 455px;"></div>
+            <div class="object skrollable skrollable-before" data-1100="left: 720px; margin-top: 455px; transform: scale(0.95);" data-1400="margin-top: -865px; transform: scale(1);" style="background-image: url(./exp/haus22.svg); height: 1080px; width: 453px; margin-left: -200px; position: absolute; left: 720px; margin-top: 455px; transform: scale(0.95);"></div>
+
+
+
+            <div class="object skrollable skrollable-before" data-1100="left: 0px; margin-top: 948px;" data-1400="margin-top: 197px" style="background-color: rgb(236, 236, 236); height: 254px; width: 1440px; z-index: -10; position: absolute; left: 0px; margin-top: 948px;"></div>
+
+
+            <div class="object skrollable skrollable-before" data-1100="left: 61px; margin-top: 455px; transform: scale(0.3);" data-1400="-webkit-filter: grayscale(0%); margin-top[quadratic]: -214px; transform: scale(1);-webkit-filter: grayscale(0%);" data-1500="-webkit-filter: grayscale(30%);" style="background-image: url(./exp/frau.svg); height: 686px; width: 561px; margin-left: -55px; position: absolute; z-index: 10; left: 61px; margin-top: 455px; transform: scale(0.3); filter: grayscale(0%);"></div>
+
+
+            <div class="object skrollable skrollable-between" data-0="display:none;" data-1720="display: inherit;" style="display:none; position: absolute;    border-radius: 50%;
+    width: 47.4px;
+    height: 47.4px;
+    background: rgba(212,118,126,1); margin-top: 358px; margin-left: 263px;  border-radius: 50%;
+    animation: redpulse 700ms   alternate;
+    animation: redpulse 700ms   alternate infinite;
+              outline: none;
+    border-color: red;
+    box-shadow: 0 0 10px 5px red; z-index: 10;
+     
+                "></div>
+
+            <style>
+                @keyframes redpulse {
+                    to {
+                        background-color: rgba(255, 0, 0, 0.85);
+                    }
+                }
+                @keyframes bluepulse {
+                    to {
+                        background-color: rgba(255, 0, 0, 0.85);
+                    }
+                }
+            </style>
+
+
+
+            <div class="object skrollable skrollable-before" data-1100="left: 731px; margin-top: 1955px;" data-1400="margin-top: -365px;" style="background-image: url(./exp/lamb.svg); height: 815px; width: 544px; margin-left: -55px; position: absolute; z-index: 10; left: 731px; margin-top: 1955px;"></div>
+            <div class="object skrollable skrollable-before" data-1100="left: 481px; margin-top: 1955px;" data-1500="margin-top: -315px; opacity: 0;" data-1700="opacity: 0.5;" style="background-image: url(./exp/schein.svg); height: 769px; width: 718px; margin-left: -55px; position: absolute; z-index: 10; left: 481px; margin-top: 1955px; opacity: 0;"></div>
+
+            <!-- MOND -->
+            <div class="object skrollable skrollable-before" data-1330="left: 435px;margin-top: 480px; " data-1500="margin-top: -615px;" data-1600="" style="background-image: url(./exp/mond2.svg); height: 215px; width: 191px; margin-left: -55px; position: absolute; z-index: -20; filter: grayscale(0%); left: 435px; margin-top: 480px;"></div>
+
+            <!-- Räuber -->
+
+            <div class="object skrollable skrollable-before" data-1330="margin-top: 290px;" data-1390="margin-top: 0px;" data-1530="left: 1175px;-webkit-clip-path: inset(0px 250px 0px 0px);" data-1665="margin-top: -100px" data-1800="left: 913px; -webkit-clip-path: inset(0px 0px 0px 0px); margin-top: 0px;" style="background-image: url(./exp/verbrecher2.svg); height: 605px; width: 292px; position: absolute; z-index: 9; filter: grayscale(0%); left: 1175px; clip-path: inset(0px 250px 0px 0px); margin-top: 290px; transform: rotate(0deg) scale(1);" data-1968="left: 913px; margin-top: 0px; transform: rotate(0deg) scale(1); " data-2079="left: 0px; margin-top: -1000px;  transform: rotate(1000deg) scale(0.3);"></div>
+
+            <!-- Nacht -->
+
+            <div class="object skrollable skrollable-before" data-1310="left: 0px; opacity: 0;" data-1500="opacity: 0.5;" style="z-index: 9; margin-top: -450px; height: 900px; width: 1440px; position: absolute; background-color: black; left: 0px; opacity: 0;"></div>
+
+
+            <!-- Sirene -->
+
+
+
+            <div class="object skrollable skrollable-between" data-0="display: none;" data-1780="display: inherit; opacity: 0;" data-1920="opacity: 0.5;" style="margin-top: -450px; background-color: rgb(52, 152, 219); opacity: 0; z-index: 9; height: 900px; width: 1440px; position: absolute; animation: bluepulse 700ms infinite alternate; display: none;"></div>
+
+
+            <!-- Schild -->
+
+            <div class="object skrollable skrollable-between" data-0="display: none;" data-1720="display: inherit; margin-top: 450px;" data-1907="margin-top: -750px;" data-2100="" style="margin-top: 450px; background-image: url(./exp/warnung.svg); z-index: 12; height: 290px; width: 453px; margin-left: 520px; position: absolute; display: none;"></div>
+            <!-- Polizeiauto -->
+
+            <div class="object skrollable skrollable-between" data-0="display: none; margin-left: 1440px;" data-1924="display: inherit;" data-1940="margin-left: 1440px;" data-2100="margin-left: 0px;" style="margin-top: -168px; background-image: url(./exp/polizeiauto.svg); z-index: 9; height: 900px; width: 1440px; position: absolute; display: none; margin-left: 1440px;"></div>
+
+            <!-- SCREEN1 -->
+
+            <div class="object skrollable skrollable-between" data-0="display: none;" data-2200="opacity: 0; display: inherit;" data-2500="opacity: 1;" data-2800="display:inherit;" style="margin-top: -450px; background-image: url(./exp/übersichtkette.svg); height: 900px; width: 1440px; position: absolute; z-index: 11; display: none; opacity: 0;">
+
+            </div>
+
+
+            <div class="object skrollable skrollable-between" data-0="display:inherit;" data-2600="margin-top: 450px" data-2700="margin-top: -450px" data-6290="display:none;" style="margin-top: 450px; background-color: rgb(219, 225, 126); height: 900px; width: 1440px; position: absolute; z-index: 11; display: inherit;">
+
+                <div class="object skrollable skrollable-before" data-3000="margin-top:240px" data-3050="margin-top:900px" style="position: absolute; background-image:url(./exp/tyre/logo-st.svg); margin-left: 592px; margin-top: 240px; height: 315px; width: 296px;"></div>
+
+                <!-- Strasse -->
+                <div data-2910="margin-top: 900px" data-2950="margin-top:585px" data-3540="margin-left: -540px" data-3900="margin-left: -2500px" data-4300="margin-left: -2500px" data-4660="margin-left: -5000px" data-5020="margin-left: -5000px" data-5380="margin-left: -7500px" class="object skrollable skrollable-before" style="position: absolute; background-image:url(./exp/tyre/street.svg); margin-left: -540px; margin-top: 900px; height: 315px; width: 10805px; z-index:20;"></div>
+                <!-- Hügel -->
+                <div data-2910="margin-top: 900px" data-2940="margin-top:585px" data-3000="margin-top: 297px;" data-3540="margin-left: -19px" data-3900="margin-left: -520px" data-4300="margin-left: -520px" data-4660="margin-left: -1020px" data-5020="margin-left: -1020px" data-5380="margin-left: -1520px" class="object skrollable skrollable-before" style="position: absolute; background-image: url(./exp/tyre/huegel-bottom.svg); margin-left: -19px; margin-top: 900px; height: 315px; width: 5012px; z-index: 19;"></div>
+                <!-- Hügel2 -->
+                <div data-2910="margin-top: 900px" data-2940="margin-top:585px" data-3020="margin-top: 297px;" data-3540="margin-left: -200px" data-3900="margin-left: -370px" data-4300="margin-left: -370px" data-4660="margin-left: -640px" data-5020="margin-left: -640px" data-5380="margin-left: -910px" class="object skrollable skrollable-before" style="position: absolute; background-image:url(./exp/tyre/huegel.svg); margin-left: -200px; margin-top: 900px; height: 221px; width: 3162px; z-index:18;"></div>
+
+                <!-- bäume -->
+                <div data-2910="margin-top: 900px" data-2940="margin-top:585px" data-3020="margin-top: 297px;" data-3540="margin-left: 256px" data-3900="margin-left: -245px" class="object skrollable skrollable-before" style="position: absolute; background-image: url(./exp/tyre/baeume-links.svg); margin-left: 256px; margin-top: 900px; height: 96px; width: 89px; z-index: 19;"></div>
+                <!-- bäume -->
+                <div data-2910="margin-top: 900px; background-image:url(./exp/tyre/baeume-rechts.svg);" data-2940="margin-top:585px" data-3020="margin-top: 297px;" data-3540="margin-left: 1320px" data-3900="margin-left: 1159px" data-4300="margin-left: 1159px" data-4660="margin-left: 979px;" data-4661="background-image:url(./exp/tyre/baeume-schnee-rechts.svg);" data-5020="margin-left: 979px" data-5380="margin-left: 709px" class="object skrollable skrollable-before" style="position: absolute; background-image: url(./exp/tyre/baeume-rechts.svg); margin-left: 1320px; margin-top: 900px; height: 71px; width: 68px; z-index: 18;"></div>
+                <!-- wolke1 -->
+                <div data-0="display:none;" data-3000="margin-top: -100px; display: inherit;" data-3020="margin-top: 52px;" data-3540="margin-left: -24px" data-250000="margin-left: -5000px" class="object skrollable skrollable-between" style="display: none; position: absolute; background-image:url(./exp/tyre/wolke-1.svg); margin-left: -24px; margin-top: -100px; height: 79px; width: 149px; z-index:18;"></div>
+
+                <div data-0="display:none;" data-3000="margin-top: -100px; display: inherit;" data-3050="margin-top: 52px;" data-3020="margin-top: 52px;" data-3540="margin-left: 1300px" data-250000="margin-left: -5000px" class="object skrollable skrollable-between" style="position: absolute; background-image: url(./exp/tyre/wolke-1.svg); margin-left: 1300px; margin-top: -100px; height: 79px; width: 149px; z-index: 18; display: none;"></div>
+
+                <div data-0="display:none;" data-3000="margin-top[swing]: -100px; display: inherit;" data-3040="margin-top[swing]: 100px;" data-3020="margin-top: 52px;" data-3540="margin-left: 760px" data-250000="margin-left: -5000px" class="object skrollable skrollable-between" style="position: absolute; background-image: url(./exp/tyre/wolke-2.svg); margin-left: 760px; margin-top: -100px; height: 121px; width: 229px; z-index: 18; display: none;"></div>
+
+                <!-- reifen -->
+
+                <div data-0="display:none;" data-3035="margin-left: -365px; display: inherit;" data-3240="margin-left: 360px;" data-4370="transform: scale(1); margin-top: 420px;" data-4590="transform: scale(0.7); margin-top: 280px;" data-5030="transform: scale(0.7); margin-top: 280px;" data-5250="transform: scale(1); margin-top: 420px;" class="object skrollable skrollable-between" style="position: absolute; background-image: url(./exp/tyre/reifen.svg); margin-left: -365px; margin-top: 420px; height: 388px; width: 361px; z-index: 21; display: none; transform: scale(1);"></div>
+
+                <!-- handy -->
+
+                <div data-0="display:none;" data-3085="margin-top:900px; display: inherit;background-image:url(./exp/tyre/handyprofil.svg);" data-3340="margin-top: 270px;" data-3540="margin-top: 270px;" data-3750="margin-top: 900px;" data-3800="margin-top: 900px; background-image:url(./exp/tyre/handyschotter.svg);" data-3990="margin-top: 270px;" data-4190="margin-top: 270px;" data-4400="margin-top: 900px;" data-4480="margin-top: 900px; background-image:url(./exp/tyre/handybordstein.svg);" data-4660="margin-top: 270px;" data-4860="margin-top: 270px;" data-5070="margin-top: 900px;" data-5150="margin-top: 900px; background-image:url(./exp/tyre/handyeis.svg);" data-5380="margin-top: 270px" data-5490="transform: scale(1)" data-5840="transform: scale(100)" class="object skrollable skrollable-between" style="position: absolute; background-image: url(./exp/tyre/handyprofil.svg); margin-left: 970px; margin-top: 900px; height: 767px; width: 399px; z-index: 21; display: none; transform: scale(1);"></div>
+
+                <!-- hintergrund -->
+
+                <div data-0="display:none;" data-3035="display: inherit;" data-3310="margin-left: 0px" data-3750="margin-left: -1740px" class="object skrollable skrollable-between" style="position: absolute; background-image: url(./exp/tyre/bg-image.svg); margin-left: 0px; margin-top: 0px; height: 901px; width: 6758px; z-index: 17; display: none;"></div>
+
+
+                <!-- schild1 -->
+
+                <div data-0="display:none;" data-3035="display: inherit;" data-3340="" data-3780="margin-top: 586px; margin-left: 970px" data-3850="margin-top: 220px; margin-left: 70px;" data-4300="margin-left: 70px" data-4660="margin-left: -5000px" class="object skrollable skrollable-between" style="position: absolute; background-image: url(./exp/tyre/schild-schotter.svg); margin-left: 970px; margin-top: 586px; height: 392px; width: 218px; z-index: 19; display: none;"></div>
+
+                <!-- schotter -->
+
+                <div data-3035="display: inherit;" data-3700="margin-left: 1440px" data-3900="margin-left: 290px" data-4300="margin-left: 290px" data-4660="margin-left: -5000px" class="object skrollable skrollable-before" style="position: absolute; background-image: url(./exp/tyre/schotter.svg); margin-left: 1440px; margin-top: 635px; height: 253px; width: 211px; z-index: 20; display: inherit;"></div>
+
+
+                <!-- schild2 -->
+
+                <div data-0="display:none;" data-3035="display: inherit;" data-3340="" data-4380="margin-top: 586px; margin-left: 970px" data-4450="margin-top: 220px; margin-left: 70px;" data-4600="margin-left: 70px" data-5020="margin-left: 70px" data-5220="margin-left: -700px" class="object skrollable skrollable-between" style="position: absolute; background-image: url(./exp/tyre/schild-bordstein.svg); margin-left: 970px; margin-top: 586px; height: 392px; width: 218px; z-index: 19; display: none;"></div>
+                <!-- schild3 -->
+
+                <div data-0="display:none;" data-3035="display: inherit;" data-3340="" data-5100="margin-top: 586px; margin-left: 970px" data-5170="margin-top: 220px; margin-left: 70px;" class="object skrollable skrollable-between" style="position: absolute; background-image: url(./exp/tyre/schild-schnee.svg); margin-left: 970px; margin-top: 586px; height: 392px; width: 218px; z-index: 19; display: none;"></div>
+
+                <div id="snow" data-0="display:none;" data-5090="display: inherit; opacity: 0; margin-left: 1440px" data-5280="opacity: 1; margin-left: 0px" class="object skrollable skrollable-between" style="position: absolute; width: 1440px; height: 900px; z-index: 20; display: none; opacity: 0; margin-left: 1440px;"></div>
+
+                <div data-0="display:none;" data-5700="display: inherit; transform:scale(0.001);" data-5950="transform:scale(1);" data-5970="margin-top: 0px;" data-6230="margin-top: -1440px;" class="object skrollable skrollable-between" style="background-image: url(./exp/tyre/tyreübersicht.svg); position: absolute; width: 1440px; height: 900px; z-index: 22; display: none; margin-top: 0px; transform: scale(0.001);"></div>
+
+
+            </div>
+
+
+            <!-- KITCHEN -->
+
+            <div data-0="display:none;" data-5970="display: inherit; margin-top: 1440px;" data-6290="margin-top: -450px;" data-7830="margin-top: -450px;" data-8000="margin-top: -1352px;" class="object skrollable skrollable-between" style="background-color: rgb(226, 187, 192); position: absolute; width: 1440px; height: 1800px; z-index: 21; display: none; margin-top: 1440px;">
+
+
+
+                <div data-0="display:none;" data-5790="display: inherit; margin-top: 900px" data-6400="margin-top: 160px;" data-6600="margin-top: -900px;" class="object skrollable skrollable-between" style="position: absolute; width: 411px; height: 579px; margin-left: 514px; z-index: 20; background-image: url(./exp/kitchen/kitchenlogo.svg); display: none; margin-top: 900px;"></div>
+<style>
+   .faail  {
+  display: none !important;
+    }
+                </style>
+                <!-- kueche -->
+                
+                                   <!-- bäume -->    
+                 <div class="fail skrollable skrollable-between" data-0="display:none;" data-6500="display: inherit; margin-top: 1300px;" data-6600="margin-top: 165px;" data-6720="margin-left: -160px;" data-7000="margin-left: 500px;" data-7030="display:none;" style="position: absolute; width: 344px; height: 289px; margin-left: -160px; z-index: 0; background-image: url(./exp/kitchen/bäume.svg); display: none; margin-top: 1300px;"></div>
+                <!-- KITCHENFRAME scale 2,4989 -->
+                <div class="skrollable skrollable-between" data-0="" data-6720="margin-left: 0px;" data-7000="margin-left: 560px;" data-7090="margin-top: 0px; transform: scale(1);" data-7190="margin-top: 162px; transform: scale(2.4989); visibility: inherit;" data-7195="visibility: hidden;" style="transform-origin: 160px 288px 0px; visibility: inherit; margin-left: 0px; margin-top: 0px; transform: scale(1);">
+                    <div data-0="display:none;" data-6500="display: inherit; margin-top: 900px;" data-6600="margin-top: -200px;" class="object skrollable skrollable-between" style="margin-left: -560px; position: absolute; width: 2000px; height: 1200px; z-index: 30; background-image: url(./exp/kitchen/küche.svg); display: none; margin-top: 900px;"></div>
+                    
+                                
+ <!-- ipad -->
+                <div data-0="display:none;" data-6500="display: inherit; margin-top:1627px;" data-6600="margin-top: 527px;" class="object skrollable skrollable-between" style="position: absolute; width: 205px; height: 138px; margin-left: 560px; z-index: 35; background-image: url(./exp/kitchen/ipad.svg); display: none; margin-top: 1627px;"></div>
+               
+                    
+                    <!-- typ -->
+
+                    <div data-0="display:none;" data-6550="display: inherit; margin-left:1440px;" data-6650="display: inherit; margin-left:960px;" class="object skrollable skrollable-between" style="position: absolute; width: 278px; height: 698px; margin-top: 302px; z-index: 30; background-image: url(./exp/kitchen/typ.svg); display: none; margin-left: 1440px;"></div>
+                    <!-- b1 -->
+
+                    <div data-0="display:none;" data-6630="display: inherit; transform: scale(0) " data-6670="transform: scale(1)" data-6730="transform: scale(1); margin-top: 352px" data-6800="margin-top: 302px; transform: scale(0)" class="object skrollable skrollable-between" style="margin-left: 970px; margin-top: 352px; position: absolute; width: 35px; height: 35px; z-index: 30; background-image: url(./exp/kitchen/b1.svg); display: none; transform: scale(0);"></div>
+
+ <!-- b2 -->
+                    <div data-0="display:none;" data-6660="display: inherit; transform: scale(0) " data-6700="transform: scale(1)" data-6760="transform: scale(1); margin-top: 297px" data-6830="margin-top: 247px; transform: scale(0)" class="object skrollable skrollable-between" style="margin-left: 900px; margin-top: 297px; position: absolute; width: 53px; height: 53px; z-index: 30; background-image: url(./exp/kitchen/b2.svg); display: none; transform: scale(0);"></div>
+ <!-- b3 -->
+                    <div data-0="display:none;" data-6690="display: inherit; transform: scale(0) " data-6730="transform: scale(1)" data-6790="transform: scale(1); margin-top: 45px" data-6850="transform: scale(0); margin-top: -5px;" class="object skrollable skrollable-between" style="margin-left: 520px; margin-top: 45px; position: absolute; width: 444px; height: 252px; z-index: 30; background-image: url(./exp/kitchen/b3.svg); display: none; transform: scale(0);"></div>
+        <!-- ipadmessage -->
+                    
+                   <div data-0="display:none;" data-6820="display: inherit; margin-top: 500px; transform: scale(0)" data-6890="margin-top: 290px; transform: scale(1)" data-6990="margin-top: -210px;" data-7080="display: none" class="object skrollable skrollable-between" style="margin-left: 488px; margin-top: 500px; position: absolute; width: 358px; height: 206px; z-index: 34; background-image: url(./exp/kitchen/ipadmessage1.svg); display: none; transform: scale(0);"></div>
+                    
+                    <!-- ipadmessage -->
+                    
+                   <div data-0="display:none;" data-6920="display: inherit; margin-top: 500px; transform: scale(0)" data-6990="margin-top: 290px; transform: scale(1)" data-7090="margin-top: -210px;" data-7100="display: none;" class="object skrollable skrollable-between" style="margin-left: 488px; margin-top: 500px; position: absolute; width: 358px; height: 206px; z-index: 34; background-image: url(./exp/kitchen/ipadmessage2.svg); display: none; transform: scale(0);"></div>
+                  
+                     <!-- vorhang_left -->    
+   <div data-0="display:none;" data-6500="display: inherit; margin-top: 1208px" data-6600="margin-top: 108px;" data-6900="-webkit-clip-path: inset(0px 200px 0px 0px);" data-7030="-webkit-clip-path: inset(0px 0px 0px 0px);" class="object skrollable skrollable-between" style="position: absolute; width: 288px; height: 360px; margin-left: -128px; margin-top: 1208px; clip-path: inset(0px 200px 0px 0px); z-index: 30; background-image: url(./exp/kitchen/vorhanglinks.svg); display: none;"></div>
+ <!-- vorhang_right -->    
+   <div data-0="display:none;" data-6500="display: inherit; margin-top: 1208px" data-6600="margin-top: 108px;" data-6900="-webkit-clip-path: inset(0px 0px 0px 200px);" data-7030="-webkit-clip-path: inset(0px 0px 0px 0px);" class="object skrollable skrollable-between" style="position: absolute; width: 288px; height: 360px; margin-left: 160px; margin-top: 1208px; z-index: 30; background-image: url(./exp/kitchen/vorhangrechts.svg); display: none; clip-path: inset(0px 0px 0px 200px);"></div>
+
+                    
+                       <!-- Vorhang ganz -->
+
+                <div data-0="display:none;" data-7030="display: inherit;" data-7090="" data-7220="" class="object skrollable skrollable-between" style="position: absolute; width: 576px; height: 360px; margin-top: 108px; margin-left: -128px; z-index: 35; background-image: url(./exp/kitchen/vorhangganz.svg); display: none;"></div>
+      
+                </div>
+                              
+                    <!-- Vorhang ganz 2 ohne früchte-->
+
+                <div data-0="display:none;" data-7190="display: inherit;" data-7350="margin-top: -162px;" data-7570="margin-top: -1200px;" class="object skrollable skrollable-between" style="margin-top: -162px; position: absolute; width: 1440px; height: 900px; z-index: 35; background-image: url(./exp/kitchen/vorhang3.svg); display: none;"></div>
+                                 <!-- zitrone -->
+
+                <div data-0="display:none;" data-7190="display: inherit;" data-7300="margin-top: 18px;" data-7350="margin-top: 255px;" data-7710="display:none;" data-7670="margin-top: 315px;" class="object skrollable skrollable-between" style="margin-left: 696px; margin-top: 18px; position: absolute; width: 48px; height: 80px; z-index: 35; background-image: url(./exp/kitchen/frucht2.svg); display: none;"></div>
+                                 <!-- karotte -->
+
+                <div data-0="display:none;" data-7190="display: inherit;" data-7230="margin-top: 74px; margin-left: 834px;" data-7350="margin-top: 374px; margin-left: 684px;" data-7351="transform: rotate(0deg)" data-7617="transform: rotate(130deg)" data-7641="margin-top: 374px;" data-7650="margin-top: 323px;" data-7710="display:none;" class="object skrollable skrollable-between" style="margin-top: 74px; margin-left: 834px; position: absolute; width: 110px; height: 94px; z-index: 35; background-image: url(./exp/kitchen/frucht3.svg); display: none; transform: rotate(0deg);"></div>
+                
+                
+                               <!-- mixer -->    
+                                 <div data-0="display:none;" data-7480="display: inherit; margin-top: 1470px" data-7650="margin-top:250px; margin-left: 658px;" data-7710="transform: rotate(0deg)" data-7810="transform: rotate(-90deg)" class="object skrollable skrollable-between" style="position: absolute; width: 145px; height: 255px; z-index: 300; background-image: url(./exp/kitchen/mixer.svg); display: none; transform: rotate(0deg); margin-top: 1470px; margin-left: 658px;"></div>
+                
+                
+                                 <!-- aubergine -->
+
+                <div data-0="display:none;" data-7190="display: inherit; margin-left: 607px; margin-top: 170px" data-7350="margin-left: 693px; margin-top: 500px;" data-7351="transform: rotate(0deg)" data-7590="transform: rotate(180deg)" data-7623="margin-top: 500px" data-7650="margin-top: 325px" class="object skrollable skrollable-between" data-7710="display:none;" style="margin-top: 170px; margin-left: 607px; position: absolute; width: 64.5px; height: 96.5px; z-index: 35; background-image: url(./exp/kitchen/frucht1.svg); display: none; transform: rotate(0deg);"></div>
+                    
+                
+                                 <!-- background -->    
+                 <div class="fail skrollable skrollable-between" data-0="display:none;" data-6500="display: inherit; margin-top: 1100px;" data-6600="margin-top: 0px;" data-7030="display:none;" style="position: absolute; width: 1440px; height: 513px; margin-left: -160px; z-index: -1; background-image: url(./exp/kitchen/fensterbg.svg); display: none; margin-top: 1100px;"></div>
+                
+                                 <!-- küche2 -->    
+                 <div data-0="display:none;" data-7500="display: inherit; margin-top: 900px" data-7650="margin-top:-160px;" class="object skrollable skrollable-between" style="position: absolute; width: 1440px; height: 900px; z-index: 30; background-image: url(./exp/kitchen/küche2.svg); display: none; margin-top: 900px;">
+                
+                
+                  
+
+                
+                
+                </div>  
+                
+                <!-- suppe -->
+                 <div data-0="display:none;" data-6500="display: inherit;" class="object skrollable skrollable-between" data-7650="-webkit-clip-path: inset(102px 0px 0px 0px)" data-7710="-webkit-clip-path: inset(0px 0px 0px 0px); transform: rotate(0deg)" data-7810="transform: rotate(-90deg)" style="transform-origin: 59px 98px 0px; margin-left: 672px; margin-top: 280px; position: absolute; width: 100px; height: 102px; z-index: 36; background-image: url(./exp/kitchen/suppe.svg); display: none; transform: rotate(0deg); clip-path: inset(102px 0px 0px);"></div>
+                
+                <!-- strahl -->
+   
+                
+                
+                
+                
+                
+<div data-0="display:none;" data-6500="display: inherit;" class="object skrollable skrollable-between" data-7000="-webkit-clip-path: inset(0px 0px 2054px 0px)" data-7810="-webkit-clip-path: inset(0px 0px 2054px 0px)" data-7905="-webkit-clip-path: inset(0px 0px 1737px 0px)" data-8100="-webkit-clip-path: inset(0px 0px 1093px 0px)" data-8200="-webkit-clip-path: inset(1400px 0px 1093px 0px)" style="position: absolute; width: 15px; height: 2054px; margin-top: 410px; margin-left: 618px; z-index: 40; background-image: url(./exp/kitchen/strahl.svg); display: none; clip-path: inset(0px 0px 2054px);"></div>
+         
+                
+    <div data-0="display:none;" data-7850="display: inherit;" data-8200="transform: scale(1)" data-8300="transform: scale(7)" class="object skrollable skrollable-between" style="margin-top: 820px; position: absolute; width: 1440px; height: 900px; z-index: 30; background-image: url(./exp/kitchen/tisch.svg); display: none; transform: scale(1);"></div>
+                
+                
+                <div data-0="display:none;" data-7850="display: inherit;" class="object skrollable skrollable-between" data-7906="margin-top: 1205px;  transform: scale(0);" data-7976="transform: scale(1);" data-8506="margin-top: 260px;" style="margin-top: 1205px; margin-left: 800px; position: absolute; width: 300px; height: 90px; z-index: 30; background-image: url(./exp/kitchen/appetit.svg); display: none; transform: scale(0);"></div>
+                
+            <div data-0="display:none;" data-8300="display: inherit; opacity: 0;" data-8500="opacity: 1;margin-top: 740px;" data-8600="margin-top: -160px;" class="object skrollable skrollable-between" style="margin-top: 740px; position: absolute; width: 1440px; height: 900px; z-index: 50; background-image: url(./exp/kitchen/kitchenübersicht.svg); display: none; opacity: 0;"></div>
+                
+                
+            <div data-0="display:none;" data-8500="display: inherit;margin-top: 1640px;" data-8600="margin-top: 740px" class="object skrollable skrollable-between" style="margin-top: 1640px; position: absolute; width: 1440px; height: 900px; z-index: 50; background-image: url(./exp/kitchen/black.svg); padding-left: 1150px; padding-top: 868px; font-size: 18px; display: none;">Ein Projekt der DHBW Mannheim</div>
+                
+                
+                
+                <!--    <div data-0="display:none;" data-6500="display: inherit;" class="object" style="position: absolute; width: 2000px; height: 1000px;  z-index:30; background-image: url(/exp/kitchen/küche.svg);"></div>   -->
+
+
+
+
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+    <div id="theend" style="height: 1000000px;"></div>
+
+<script type="text/javascript">
+    function scrollto(element) {
+        $('html, body').animate({
+            scrollTop: ($(element).offset().top)
+        }, 'slow');
+    };
+
+    var s = skrollr.init([smoothScrolling = true, smoothScrollingDuration = 200, forceHeight = true, scale = 100]);
+
+
+
+
+    $("body").height("100%");
+    $("body").css({
+        "padding-bottom": "500px"
+    });
+
+
+    $(window).scroll(function() {
+        $("#dev_scroll").html($(window).scrollTop() + "  " + $(window).scrollTop() / 40);
+    });
+
+    $(document).ready(function() {
+        $(window).scrollTop(0, 0);
+        //loader
+
+
+        //  scrollto("#end");
+        //   setTimeout(function() {
+        //         setTimeout(function() {$(".loader").remove();},2000);
+
+        //  window.scrollTo(0,0);
+
+        //     }, 10000);
+
+
+
+
+        moveit();
+
+
+
+
+    })
+    var t = 0;
+
+    function moveit() {
+        t += 0.05;
+
+        var r = 40;
+        var xcenter = 0;
+        var ycenter = 0;
+        var newLeft = Math.floor(xcenter + (r * Math.cos(t)));
+        var newTop = Math.floor(ycenter + (r * Math.sin(t)));
+        $('.twinklenicht').animate({
+            top: newTop,
+            left: newLeft,
+        }, 1, function() {
+            moveit();
+        });
+    }
+
+
+    function play() {
+        alert("play");
+        $.smoothScroll({
+            scrollElement: $(0),
+            scrollTarget: '#theend'
+        });
+        return false;
+
+    }
+</script>
+<div id="end"></div>
+
+</body></html>

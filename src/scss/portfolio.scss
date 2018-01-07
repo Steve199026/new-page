@@ -7,3 +7,57 @@ section {
   div {
   }
 }
+
+.iot-frame {
+  color: black;
+
+  h2 {
+    color: black;
+    font-family: 'formular-medium', sans-serif;
+    font-weight: bold;
+    text-transform: lowercase;
+  }
+
+  img {
+    height: 45px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1em;
+  }
+
+  span {
+    font-family: 'formular-medium', sans-serif;
+    font-weight: bold;
+    text-transform: lowercase;
+  }
+
+  .sh--anmerkung {
+    margin: 2em 0em;
+  }
+}
+
+body.iot-ref, body.loon-ref {
+  .white-balken {
+    background: white!important;
+  }
+
+  #cross {
+    background: white!important;
+
+    &:before {
+      background: white!important;
+    }
+  }
+
+  .tuerkis, section.loonone {
+    h1 {
+      color: white;
+
+      &:before {
+        background-color: white;
+      }
+    }
+  }
+
+}

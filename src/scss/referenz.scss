@@ -52,6 +52,14 @@ body.sh--referenz {
     background: #f3cfe0;
   }
 
+  section.loonone {
+    background: #d5173c;
+  }
+
+  section.tuerkis {
+    background: #1db9cb;
+  }
+
   #sec--contact {
     a.sh--btn {
       background: $bg-color;
@@ -71,4 +79,22 @@ body.sh--referenz {
     }
   }
 
+  .sh--logotype-fixed {
+
+    a {
+      color: $bg-color;
+    }
+
+    &:before {
+      background: rgba($bg-color, 0.4);
+    }
+  }
+
+}
+
+.iot-ref {
+
+  #sec--portfolio {
+    min-height: 650px;
+  }
 }

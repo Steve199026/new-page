@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="3162.422px" height="221.838px" viewBox="-2658.384 1 3162.422 221.838"
+	 enable-background="new -2658.384 1 3162.422 221.838" xml:space="preserve">
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-2658.3838" y1="111.9189" x2="-1219.1104" y2="111.9189">
+		<stop  offset="0" style="stop-color:#89891B"/>
+		<stop  offset="0.3849" style="stop-color:#8A8A1D"/>
+		<stop  offset="0.5236" style="stop-color:#8D8D24"/>
+		<stop  offset="0.6225" style="stop-color:#92932F"/>
+		<stop  offset="0.7024" style="stop-color:#9A9B40"/>
+		<stop  offset="0.7709" style="stop-color:#A4A656"/>
+		<stop  offset="0.8315" style="stop-color:#B1B472"/>
+		<stop  offset="0.8863" style="stop-color:#C0C492"/>
+		<stop  offset="0.9367" style="stop-color:#D1D6B8"/>
+		<stop  offset="0.9816" style="stop-color:#E4EBE1"/>
+		<stop  offset="1" style="stop-color:#EDF4F4"/>
+	</linearGradient>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_1_)" d="M-1219.11,222.838h-719.201h-0.871h-719.201V75.319
+		c54.515,0,109.029-12.389,180.019-37.162C-2407.375,13.387-2352.862,1-2298.347,1c54.518,0,109.027,12.387,180.02,37.157
+		c70.8,24.708,125.213,37.093,179.58,37.159c54.369-0.066,108.783-12.452,179.582-37.159C-1688.173,13.387-1633.661,1-1579.146,1
+		c54.518,0,109.027,12.387,180.02,37.157c70.771,24.698,125.169,37.083,179.516,37.159"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-1220.1104" y1="111.9189" x2="504.0381" y2="111.9189">
+		<stop  offset="0" style="stop-color:#EDF4F4"/>
+		<stop  offset="0.1413" style="stop-color:#EDF4F4"/>
+		<stop  offset="1" style="stop-color:#EDF4F4"/>
+	</linearGradient>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_2_)" d="M399.181,38.157
+		C328.382,62.864,273.967,75.25,219.599,75.316C165.23,75.25,110.817,62.864,40.018,38.157C-30.975,13.387-85.483,1-140.001,1
+		c-24.824,0-49.654,2.578-76.034,7.714l0.001-0.169c0,0-33.866,4.842-104.857,29.612C-391.69,62.865-446.105,75.25-500.474,75.316
+		c-54.368-0.066-108.781-12.452-179.581-37.159C-751.047,13.387-805.556,1-860.073,1c-54.516,0-109.028,12.387-180.02,37.157
+		c-70.988,24.773-125.504,37.162-180.018,37.162v147.519h719.201h0.87h283.005v-0.001h436.197h0.87h283.005l1-214.292
+		C504.038,8.545,470.172,13.387,399.181,38.157z"/>
+</g>
+</svg>
