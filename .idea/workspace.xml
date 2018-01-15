@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="381423de-d573-4dc2-8ab3-666bf4359fe0" name="Default" comment="projekt init">
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/IOT/IoT_files/parallax.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/IOT/iot-viewer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/iot-dhbw.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/loonone.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/6ca02660bdc6e2ac38d6c93de815d5f550bd0420/header.scssc" afterPath="$PROJECT_DIR$/.sass-cache/6ca02660bdc6e2ac38d6c93de815d5f550bd0420/header.scssc" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/6ca02660bdc6e2ac38d6c93de815d5f550bd0420/keyframes.scssc" afterPath="$PROJECT_DIR$/.sass-cache/6ca02660bdc6e2ac38d6c93de815d5f550bd0420/keyframes.scssc" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/6ca02660bdc6e2ac38d6c93de815d5f550bd0420/portfolio.scssc" afterPath="$PROJECT_DIR$/.sass-cache/6ca02660bdc6e2ac38d6c93de815d5f550bd0420/portfolio.scssc" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/6ca02660bdc6e2ac38d6c93de815d5f550bd0420/referenz.scssc" afterPath="$PROJECT_DIR$/.sass-cache/6ca02660bdc6e2ac38d6c93de815d5f550bd0420/referenz.scssc" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/6ca02660bdc6e2ac38d6c93de815d5f550bd0420/sites.scssc" afterPath="$PROJECT_DIR$/.sass-cache/6ca02660bdc6e2ac38d6c93de815d5f550bd0420/sites.scssc" />
-      <change beforePath="$PROJECT_DIR$/src/scss/header.scss" afterPath="$PROJECT_DIR$/src/scss/header.scss" />
-      <change beforePath="$PROJECT_DIR$/src/scss/keyframes.scss" afterPath="$PROJECT_DIR$/src/scss/keyframes.scss" />
-      <change beforePath="$PROJECT_DIR$/src/scss/portfolio.scss" afterPath="$PROJECT_DIR$/src/scss/portfolio.scss" />
-      <change beforePath="$PROJECT_DIR$/src/scss/referenz.scss" afterPath="$PROJECT_DIR$/src/scss/referenz.scss" />
-      <change beforePath="$PROJECT_DIR$/src/scss/sites.scss" afterPath="$PROJECT_DIR$/src/scss/sites.scss" />
-      <change beforePath="$PROJECT_DIR$/temp/css/sites.css" afterPath="$PROJECT_DIR$/temp/css/sites.css" />
-      <change beforePath="$PROJECT_DIR$/temp/css/sites.css.map" afterPath="$PROJECT_DIR$/temp/css/sites.css.map" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
-      <change beforePath="$PROJECT_DIR$/web/lallacss/stylesheet.css" afterPath="$PROJECT_DIR$/web/lallacss/stylesheet.css" />
+      <change beforePath="$PROJECT_DIR$/web/iot-dhbw.html" afterPath="$PROJECT_DIR$/web/iot-dhbw.html" />
       <change beforePath="$PROJECT_DIR$/web/lichtbox.html" afterPath="$PROJECT_DIR$/web/lichtbox.html" />
+      <change beforePath="$PROJECT_DIR$/web/loonone.html" afterPath="$PROJECT_DIR$/web/loonone.html" />
       <change beforePath="$PROJECT_DIR$/web/purpur.html" afterPath="$PROJECT_DIR$/web/purpur.html" />
     </list>
     <ignored path="loone-comingsoon.iws" />
@@ -81,8 +64,8 @@
       <file leaf-file-name="lichtbox.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/lichtbox.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="19" column="90" lean-forward="false" selection-start-line="19" selection-start-column="90" selection-end-line="19" selection-end-column="90" />
+            <state relative-caret-position="28">
+              <caret line="64" column="30" lean-forward="false" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -91,8 +74,8 @@
       <file leaf-file-name="iot-dhbw.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/iot-dhbw.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="79">
+              <caret line="51" column="30" lean-forward="false" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -103,7 +86,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="-544">
               <caret line="37" column="20" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
               <folding />
             </state>
@@ -123,8 +106,8 @@
       <file leaf-file-name="loonone.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/loonone.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="21" column="90" lean-forward="false" selection-start-line="21" selection-start-column="90" selection-end-line="21" selection-end-column="90" />
+            <state relative-caret-position="116">
+              <caret line="62" column="30" lean-forward="false" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -133,8 +116,8 @@
       <file leaf-file-name="purpur.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/purpur.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            <state relative-caret-position="397">
+              <caret line="64" column="30" lean-forward="false" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -238,10 +221,10 @@
         <option value="$PROJECT_DIR$/src/scss/header.scss" />
         <option value="$PROJECT_DIR$/src/scss/keyframes.scss" />
         <option value="$PROJECT_DIR$/web/IOT/iot-viewer.html" />
-        <option value="$PROJECT_DIR$/web/iot-dhbw.html" />
         <option value="$PROJECT_DIR$/src/scss/sites.scss" />
         <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/src/scss/portfolio.scss" />
+        <option value="$PROJECT_DIR$/web/iot-dhbw.html" />
         <option value="$PROJECT_DIR$/web/lichtbox.html" />
         <option value="$PROJECT_DIR$/web/loonone.html" />
         <option value="$PROJECT_DIR$/web/purpur.html" />
@@ -279,7 +262,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -287,11 +269,17 @@
               <item name="new-page" type="b2602c69:ProjectViewProjectNode" />
               <item name="new-page" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="new-page" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new-page" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -429,7 +417,8 @@
       <workItem from="1514466921218" duration="1245000" />
       <workItem from="1514468200794" duration="334000" />
       <workItem from="1514468608949" duration="61453000" />
-      <workItem from="1515338145231" duration="561000" />
+      <workItem from="1515338145231" duration="2426000" />
+      <workItem from="1516047442627" duration="682000" />
     </task>
     <task id="LOCAL-00001" summary="projekt init">
       <created>1498748885869</created>
@@ -456,7 +445,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94602000" />
+    <option name="totallyTimeSpent" value="97149000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -468,7 +457,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4077348" sideWeight="0.48023862" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16204691" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11673774" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.117803834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -715,7 +704,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="-544">
           <caret line="37" column="20" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
           <folding />
         </state>
@@ -723,8 +712,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/iot-dhbw.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="79">
+          <caret line="51" column="30" lean-forward="false" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -733,24 +722,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/lichtbox.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="19" column="90" lean-forward="false" selection-start-line="19" selection-start-column="90" selection-end-line="19" selection-end-column="90" />
+        <state relative-caret-position="28">
+          <caret line="64" column="30" lean-forward="false" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/loonone.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="21" column="90" lean-forward="false" selection-start-line="21" selection-start-column="90" selection-end-line="21" selection-end-column="90" />
+        <state relative-caret-position="116">
+          <caret line="62" column="30" lean-forward="false" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/purpur.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        <state relative-caret-position="397">
+          <caret line="64" column="30" lean-forward="false" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
           <folding />
         </state>
       </provider>
